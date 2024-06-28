@@ -1,0 +1,2 @@
+06/05-19:04:15.815140  [**] [1:1111005:2] SCADA_IDS: Modbus TCP - Report Server Information [**] [Classification: Attempted Information Leak] [Priority: 3] {TCP} 192.168.100.2:49810 -> 192.168.100.3:502
+06/05-19:04:15.818132  [**] [1:1111004:2] SCADA_IDS: Modbus TCP - Read Device Identification [**] [Classification: Attempted Information Leak] [Priority: 3] {TCP} 192.168.100.2:49812 -> 192.168.100.3:502

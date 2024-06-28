@@ -1,0 +1,23 @@
+03/31-19:29:45.007800  [**] [1:1111705:1] BACnet Read Property Attempt From Non Authorized Host [**] [Priority: 1] {UDP} 10.1.1.167:47808 -> 10.1.1.165:47808
+03/31-19:29:45.007800  [**] [1:1111704:1] BACnet Read Property Attempt [**] [Priority: 3] {UDP} 10.1.1.167:47808 -> 10.1.1.165:47808
+03/31-19:29:45.063200  [**] [1:1111705:1] BACnet Read Property Attempt From Non Authorized Host [**] [Priority: 1] {UDP} 10.1.1.167:47808 -> 10.1.1.165:47808
+03/31-19:29:45.063200  [**] [1:1111704:1] BACnet Read Property Attempt [**] [Priority: 3] {UDP} 10.1.1.167:47808 -> 10.1.1.165:47808
+03/31-19:29:45.115871  [**] [1:1111705:1] BACnet Read Property Attempt From Non Authorized Host [**] [Priority: 1] {UDP} 10.1.1.167:47808 -> 10.1.1.165:47808
+03/31-19:29:45.115871  [**] [1:1111704:1] BACnet Read Property Attempt [**] [Priority: 3] {UDP} 10.1.1.167:47808 -> 10.1.1.165:47808
+03/31-19:29:45.171466  [**] [1:1111705:1] BACnet Read Property Attempt From Non Authorized Host [**] [Priority: 1] {UDP} 10.1.1.167:47808 -> 10.1.1.165:47808
+03/31-19:29:45.171466  [**] [1:1111704:1] BACnet Read Property Attempt [**] [Priority: 3] {UDP} 10.1.1.167:47808 -> 10.1.1.165:47808
+03/31-19:29:45.226907  [**] [1:1111705:1] BACnet Read Property Attempt From Non Authorized Host [**] [Priority: 1] {UDP} 10.1.1.167:47808 -> 10.1.1.165:47808
+03/31-19:29:45.226907  [**] [1:1111704:1] BACnet Read Property Attempt [**] [Priority: 3] {UDP} 10.1.1.167:47808 -> 10.1.1.165:47808
+03/31-19:29:45.282621  [**] [1:1111705:1] BACnet Read Property Attempt From Non Authorized Host [**] [Priority: 1] {UDP} 10.1.1.167:47808 -> 10.1.1.165:47808
+03/31-19:29:45.282621  [**] [1:1111704:1] BACnet Read Property Attempt [**] [Priority: 3] {UDP} 10.1.1.167:47808 -> 10.1.1.165:47808
+03/31-19:29:45.337853  [**] [1:1111705:1] BACnet Read Property Attempt From Non Authorized Host [**] [Priority: 1] {UDP} 10.1.1.167:47808 -> 10.1.1.165:47808
+03/31-19:29:45.337853  [**] [1:1111704:1] BACnet Read Property Attempt [**] [Priority: 3] {UDP} 10.1.1.167:47808 -> 10.1.1.165:47808
+03/31-19:29:45.393389  [**] [1:1111705:1] BACnet Read Property Attempt From Non Authorized Host [**] [Priority: 1] {UDP} 10.1.1.167:47808 -> 10.1.1.165:47808
+03/31-19:29:45.393389  [**] [1:1111704:1] BACnet Read Property Attempt [**] [Priority: 3] {UDP} 10.1.1.167:47808 -> 10.1.1.165:47808
+03/31-19:29:45.448443  [**] [1:1111705:1] BACnet Read Property Attempt From Non Authorized Host [**] [Priority: 1] {UDP} 10.1.1.167:47808 -> 10.1.1.165:47808
+03/31-19:29:45.448443  [**] [1:1111704:1] BACnet Read Property Attempt [**] [Priority: 3] {UDP} 10.1.1.167:47808 -> 10.1.1.165:47808
+03/31-19:29:45.509199  [**] [1:1111708:1] BACnet Read-Broadcast-Distribution-Table Attempt [**] [Priority: 3] {UDP} 10.1.1.167:47808 -> 10.1.1.165:47808
+03/31-19:29:45.569515  [**] [1:1111709:1] BACnet Read-Broadcast-Distribution-Table NAK, Device was denied access to reading the BDT [**] [Priority: 3] {UDP} 10.1.1.165:47808 -> 10.1.1.167:47808
+03/31-19:30:05.918740  [**] [1:1111702:1] BACnet foreign Device Join Attempt From Non Authorized Host [**] [Priority: 1] {UDP} 10.1.1.167:47808 -> 10.1.1.165:47808
+03/31-19:30:05.918740  [**] [1:1111701:1] BACnet Foreign Device Join Attempt [**] [Priority: 3] {UDP} 10.1.1.167:47808 -> 10.1.1.165:47808
+03/31-19:30:05.970497  [**] [1:1111703:1] BACnet Register-Foreign-Device NAK [**] [Priority: 3] {UDP} 10.1.1.165:47808 -> 10.1.1.167:47808

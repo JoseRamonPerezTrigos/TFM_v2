@@ -1,0 +1,28 @@
+08/26-14:01:34.211940  [**] [1:1111001:2] SCADA_IDS: Modbus TCP - Force Listen Only Mode [**] [Classification: Attempted Denial of Service] [Priority: 1] {TCP} 10.0.0.57:2578 -> 10.0.0.3:502
+08/26-14:01:34.214335  [**] [1:1111001:2] SCADA_IDS: Modbus TCP - Force Listen Only Mode [**] [Classification: Attempted Denial of Service] [Priority: 1] {TCP} 10.0.0.57:2578 -> 10.0.0.3:502
+08/26-14:01:34.216894  [**] [1:1111001:2] SCADA_IDS: Modbus TCP - Force Listen Only Mode [**] [Classification: Attempted Denial of Service] [Priority: 1] {TCP} 10.0.0.57:2578 -> 10.0.0.3:502
+08/26-14:01:44.834827  [**] [1:1111002:2] SCADA_IDS: Modbus TCP - Restart Communications Option [**] [Classification: Attempted Denial of Service] [Priority: 1] {TCP} 10.0.0.57:2578 -> 10.0.0.3:502
+08/26-14:01:44.837161  [**] [1:1111002:2] SCADA_IDS: Modbus TCP - Restart Communications Option [**] [Classification: Attempted Denial of Service] [Priority: 1] {TCP} 10.0.0.57:2578 -> 10.0.0.3:502
+08/26-14:01:50.267053  [**] [1:1111002:2] SCADA_IDS: Modbus TCP - Restart Communications Option [**] [Classification: Attempted Denial of Service] [Priority: 1] {TCP} 10.0.0.57:2578 -> 10.0.0.3:502
+08/26-14:02:20.209286  [**] [1:1111003:2] SCADA_IDS: Modbus TCP - Clear Counters and Diagnostic Registers [**] [Classification: Misc Attack] [Priority: 3] {TCP} 10.0.0.57:2578 -> 10.0.0.3:502
+08/26-14:02:23.212140  [**] [1:1111003:2] SCADA_IDS: Modbus TCP - Clear Counters and Diagnostic Registers [**] [Classification: Misc Attack] [Priority: 3] {TCP} 10.0.0.57:2578 -> 10.0.0.3:502
+08/26-14:05:58.375300  [**] [1:1111006:1] SCADA_IDS: Modbus TCP - Unauthorized Read Request to a PLC [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.0.0.57:2579 -> 10.0.0.8:502
+08/26-14:05:58.375300  [**] [1:1111004:2] SCADA_IDS: Modbus TCP - Read Device Identification [**] [Classification: Attempted Information Leak] [Priority: 3] {TCP} 10.0.0.57:2579 -> 10.0.0.8:502
+08/26-14:06:02.611671  [**] [1:1111006:1] SCADA_IDS: Modbus TCP - Unauthorized Read Request to a PLC [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.0.0.57:2579 -> 10.0.0.8:502
+08/26-14:06:02.611671  [**] [1:1111004:2] SCADA_IDS: Modbus TCP - Read Device Identification [**] [Classification: Attempted Information Leak] [Priority: 3] {TCP} 10.0.0.57:2579 -> 10.0.0.8:502
+08/26-14:12:18.985618  [**] [1:1111006:1] SCADA_IDS: Modbus TCP - Unauthorized Read Request to a PLC [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.0.0.9:3082 -> 10.0.0.3:502
+08/26-14:12:48.742388  [**] [1:1111006:1] SCADA_IDS: Modbus TCP - Unauthorized Read Request to a PLC [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.0.0.9:3082 -> 10.0.0.3:502
+08/26-14:13:25.132184  [**] [1:1111006:1] SCADA_IDS: Modbus TCP - Unauthorized Read Request to a PLC [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.0.0.9:3082 -> 10.0.0.3:502
+08/26-14:13:52.259088  [**] [1:1111007:1] SCADA_IDS: Modbus TCP - Unauthorized Write Request to a PLC [**] [Classification: Potentially Bad Traffic] [Priority: 1] {TCP} 10.0.0.9:3082 -> 10.0.0.3:502
+08/26-14:14:02.072127  [**] [1:1111007:1] SCADA_IDS: Modbus TCP - Unauthorized Write Request to a PLC [**] [Classification: Potentially Bad Traffic] [Priority: 1] {TCP} 10.0.0.9:3082 -> 10.0.0.3:502
+08/26-14:14:39.997992  [**] [1:1111007:1] SCADA_IDS: Modbus TCP - Unauthorized Write Request to a PLC [**] [Classification: Potentially Bad Traffic] [Priority: 1] {TCP} 10.0.0.9:3082 -> 10.0.0.3:502
+08/26-14:22:43.917913  [**] [1:1111006:1] SCADA_IDS: Modbus TCP - Unauthorized Read Request to a PLC [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.0.0.57:2585 -> 10.0.0.8:502
+08/26-14:22:43.917913  [**] [1:1111008:1] SCADA_IDS: Modbus TCP - Illegal Packet Size, Possible DOS Attack [**] [Classification: Detection of a non-standard protocol or event] [Priority: 1] {TCP} 10.0.0.57:2585 -> 10.0.0.8:502
+08/26-14:22:48.133580  [**] [1:1111006:1] SCADA_IDS: Modbus TCP - Unauthorized Read Request to a PLC [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.0.0.57:2585 -> 10.0.0.8:502
+08/26-14:22:48.133580  [**] [1:1111008:1] SCADA_IDS: Modbus TCP - Illegal Packet Size, Possible DOS Attack [**] [Classification: Detection of a non-standard protocol or event] [Priority: 1] {TCP} 10.0.0.57:2585 -> 10.0.0.8:502
+08/26-14:23:21.676918  [**] [1:1111009:1] SCADA_IDS: Modbus TCP - Non-Modbus Communication on TCP Port 502 [**] [Classification: Detection of a non-standard protocol or event] [Priority: 1] {TCP} 10.0.0.57:2585 -> 10.0.0.8:502
+08/26-14:23:27.607932  [**] [1:1111009:1] SCADA_IDS: Modbus TCP - Non-Modbus Communication on TCP Port 502 [**] [Classification: Detection of a non-standard protocol or event] [Priority: 1] {TCP} 10.0.0.57:2585 -> 10.0.0.8:502
+08/26-14:25:36.247102  [**] [1:1111010:2] SCADA_IDS: Modbus TCP - Slave Device Busy Exception Code Delay [**] [Classification: Denial of Service] [Priority: 2] {TCP} 10.0.0.8:502 -> 10.0.0.57:4446
+08/26-14:26:02.408608  [**] [1:1111011:2] SCADA_IDS: Modbus TCP - Acknowledge Exception Code Delay [**] [Classification: Denial of Service] [Priority: 2] {TCP} 10.0.0.8:502 -> 10.0.0.57:4446
+08/26-14:26:52.566181  [**] [1:1111012:1] SCADA_IDS: Modbus TCP - Incorrect Packet Length, Possible DOS Attack [**] [Classification: Detection of a non-standard protocol or event] [Priority: 2] {TCP} 10.0.0.8:502 -> 10.0.0.57:4446
+08/26-14:26:56.103900  [**] [1:1111012:1] SCADA_IDS: Modbus TCP - Incorrect Packet Length, Possible DOS Attack [**] [Classification: Detection of a non-standard protocol or event] [Priority: 2] {TCP} 10.0.0.8:502 -> 10.0.0.57:4446
