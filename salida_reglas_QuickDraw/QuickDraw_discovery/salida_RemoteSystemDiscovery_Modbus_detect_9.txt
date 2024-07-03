@@ -1,2 +1,0 @@
-04/23-19:46:06.889522  [**] [1:1111202:2] SCADA_IDS: DNP3 - Non-DNP3 Communication on a DNP3 Port [**] [Classification: Detection of a non-standard protocol or event] [Priority: 2] {TCP} 192.168.100.2:37125 -> 192.168.100.3:502
-04/23-19:46:06.896079  [**] [1:1111202:2] SCADA_IDS: DNP3 - Non-DNP3 Communication on a DNP3 Port [**] [Classification: Detection of a non-standard protocol or event] [Priority: 2] {TCP} 192.168.100.3:502 -> 192.168.100.2:37125

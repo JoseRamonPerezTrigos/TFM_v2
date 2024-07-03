@@ -1,0 +1,1 @@
+03/31-19:41:35.089710  [**] [1:1111517:1] TCP EtherNet/IP Request Identity Attempt Via Redpoint Nmap NSE [**] [Priority: 3] {TCP} 10.1.1.167:5262 -> 10.1.1.164:44818
