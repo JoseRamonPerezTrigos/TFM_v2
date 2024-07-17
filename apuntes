@@ -5,3 +5,7 @@
 para SNORT 3:
 - pantallazo en la web oficial de snort, en descargas. Explicar que hay que descargar snort3 y snortlib también para que funcione.
 - también hay que instalar dependencias (ver TFM de pablo)
+- explicar esto: Puedes modificar el PATH de tu shell para dar prioridad a Snort 3 sobre Snort 2.9. Añade la siguiente línea a tu archivo de configuración del shell (~/.bashrc, ~/.bash_profile, etc.):
+export PATH=/usr/local/snort/bin:$PATH
+echo 'export PATH=/usr/local/snort/bin:$PATH' >> ~/.bashrc
+source ~/.bashrc
