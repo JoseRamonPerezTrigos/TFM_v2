@@ -9,3 +9,6 @@ para SNORT 3:
 export PATH=/usr/local/snort/bin:$PATH
 echo 'export PATH=/usr/local/snort/bin:$PATH' >> ~/.bashrc
 source ~/.bashrc
+
+- - han saltado más reglas (1917 por ejemplo), que en el TFM anterior.
+- hay que ver cuantas reglas de TALOS han saltado de la comunidad y cuantas de su equipo de ciberseguridad
