@@ -1,0 +1,1 @@
+17790,24303. Hay 2 alertas no repetidas y un total de 10240.
