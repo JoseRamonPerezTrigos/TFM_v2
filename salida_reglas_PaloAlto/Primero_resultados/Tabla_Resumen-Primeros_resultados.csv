@@ -1,0 +1,12 @@
+﻿RESULTADOS DE PALO-ALTO PARA ATAQUES SUMINISTRADOS ;;
+;;
+Nombre del pcap;Nºinstancia de ataque;Nº de alarmas que han saltado
+ataque-deteccion-SNMP-fixed.pcapng;0;0
+discovery-nmap-fixed.pcapng;0;0
+Discovery-modbus-nmap-fixed.pcapng;31649, 31667;2
+Discovery-modbus_findunitid-fixed.pcapng;0;0
+Discovery-modbusdetect-fixed.pcapng;0;0
+;;
+;;
+;;
+;;
