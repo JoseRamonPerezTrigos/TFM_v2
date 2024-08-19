@@ -1,0 +1,1082 @@
+--------------------------------------------------
+o")~   Snort++ 3.3.1.0
+--------------------------------------------------
+Loading /usr/local/etc/snort/snort.lua:
+Loading snort_defaults.lua:
+Finished snort_defaults.lua:
+	stream_icmp
+	stream_tcp
+	stream_udp
+	stream_user
+	stream_file
+	arp_spoof
+	back_orifice
+	dns
+	netflow
+	normalizer
+	pop
+	rpc_decode
+	sip
+	ssh
+	ssl
+	telnet
+	cip
+	dnp3
+	iec104
+	mms
+	modbus
+	s7commplus
+	dce_tcp
+	dce_udp
+	dce_http_proxy
+	dce_http_server
+	port_scan
+	ftp_server
+	ftp_client
+	ftp_data
+	http_inspect
+	http2_inspect
+	file_policy
+	js_norm
+	wizard
+	active
+	alerts
+	daq
+	decode
+	host_cache
+	host_tracker
+	references
+	classifications
+	trace
+	ips
+	binder
+	appid
+	file_id
+	smtp
+	gtp_inspect
+	dce_smb
+	imap
+	output
+	so_proxy
+	hosts
+	network
+	packets
+	process
+	search_engine
+	stream
+	stream_ip
+Finished /usr/local/etc/snort/snort.lua:
+Loading file_id.rules_file:
+Loading file_magic.rules:
+Finished file_magic.rules:
+Finished file_id.rules_file:
+Loading ips.rules:
+Loading ../rules/snort3-community.rules:
+Finished ../rules/snort3-community.rules:
+Loading ../rules/3.0.0.0/includes.rules:
+Loading snort3-app-detect.rules:
+Finished snort3-app-detect.rules:
+Loading snort3-browser-chrome.rules:
+Finished snort3-browser-chrome.rules:
+Loading snort3-browser-firefox.rules:
+Finished snort3-browser-firefox.rules:
+Loading snort3-browser-ie.rules:
+Finished snort3-browser-ie.rules:
+Loading snort3-browser-other.rules:
+Finished snort3-browser-other.rules:
+Loading snort3-browser-plugins.rules:
+Finished snort3-browser-plugins.rules:
+Loading snort3-browser-webkit.rules:
+Finished snort3-browser-webkit.rules:
+Loading snort3-content-replace.rules:
+Finished snort3-content-replace.rules:
+Loading snort3-exploit-kit.rules:
+Finished snort3-exploit-kit.rules:
+Loading snort3-file-executable.rules:
+Finished snort3-file-executable.rules:
+Loading snort3-file-flash.rules:
+Finished snort3-file-flash.rules:
+Loading snort3-file-identify.rules:
+Finished snort3-file-identify.rules:
+Loading snort3-file-image.rules:
+Finished snort3-file-image.rules:
+Loading snort3-file-java.rules:
+Finished snort3-file-java.rules:
+Loading snort3-file-multimedia.rules:
+Finished snort3-file-multimedia.rules:
+Loading snort3-file-office.rules:
+Finished snort3-file-office.rules:
+Loading snort3-file-other.rules:
+Finished snort3-file-other.rules:
+Loading snort3-file-pdf.rules:
+Finished snort3-file-pdf.rules:
+Loading snort3-indicator-compromise.rules:
+Finished snort3-indicator-compromise.rules:
+Loading snort3-indicator-obfuscation.rules:
+Finished snort3-indicator-obfuscation.rules:
+Loading snort3-indicator-scan.rules:
+Finished snort3-indicator-scan.rules:
+Loading snort3-indicator-shellcode.rules:
+Finished snort3-indicator-shellcode.rules:
+Loading snort3-malware-backdoor.rules:
+Finished snort3-malware-backdoor.rules:
+Loading snort3-malware-cnc.rules:
+Finished snort3-malware-cnc.rules:
+Loading snort3-malware-other.rules:
+Finished snort3-malware-other.rules:
+Loading snort3-malware-tools.rules:
+Finished snort3-malware-tools.rules:
+Loading snort3-netbios.rules:
+Finished snort3-netbios.rules:
+Loading snort3-os-linux.rules:
+Finished snort3-os-linux.rules:
+Loading snort3-os-mobile.rules:
+Finished snort3-os-mobile.rules:
+Loading snort3-os-other.rules:
+Finished snort3-os-other.rules:
+Loading snort3-os-solaris.rules:
+Finished snort3-os-solaris.rules:
+Loading snort3-os-windows.rules:
+Finished snort3-os-windows.rules:
+Loading snort3-policy-multimedia.rules:
+Finished snort3-policy-multimedia.rules:
+Loading snort3-policy-other.rules:
+Finished snort3-policy-other.rules:
+Loading snort3-policy-social.rules:
+Finished snort3-policy-social.rules:
+Loading snort3-policy-spam.rules:
+Finished snort3-policy-spam.rules:
+Loading snort3-protocol-dns.rules:
+Finished snort3-protocol-dns.rules:
+Loading snort3-protocol-finger.rules:
+Finished snort3-protocol-finger.rules:
+Loading snort3-protocol-ftp.rules:
+Finished snort3-protocol-ftp.rules:
+Loading snort3-protocol-icmp.rules:
+Finished snort3-protocol-icmp.rules:
+Loading snort3-protocol-imap.rules:
+Finished snort3-protocol-imap.rules:
+Loading snort3-protocol-nntp.rules:
+Finished snort3-protocol-nntp.rules:
+Loading snort3-protocol-other.rules:
+Finished snort3-protocol-other.rules:
+Loading snort3-protocol-pop.rules:
+Finished snort3-protocol-pop.rules:
+Loading snort3-protocol-rpc.rules:
+Finished snort3-protocol-rpc.rules:
+Loading snort3-protocol-scada.rules:
+Finished snort3-protocol-scada.rules:
+Loading snort3-protocol-services.rules:
+Finished snort3-protocol-services.rules:
+Loading snort3-protocol-snmp.rules:
+Finished snort3-protocol-snmp.rules:
+Loading snort3-protocol-telnet.rules:
+Finished snort3-protocol-telnet.rules:
+Loading snort3-protocol-tftp.rules:
+Finished snort3-protocol-tftp.rules:
+Loading snort3-protocol-voip.rules:
+Finished snort3-protocol-voip.rules:
+Loading snort3-pua-adware.rules:
+Finished snort3-pua-adware.rules:
+Loading snort3-pua-other.rules:
+Finished snort3-pua-other.rules:
+Loading snort3-pua-p2p.rules:
+Finished snort3-pua-p2p.rules:
+Loading snort3-pua-toolbars.rules:
+Finished snort3-pua-toolbars.rules:
+Loading snort3-server-apache.rules:
+Finished snort3-server-apache.rules:
+Loading snort3-server-iis.rules:
+Finished snort3-server-iis.rules:
+Loading snort3-server-mail.rules:
+Finished snort3-server-mail.rules:
+Loading snort3-server-mssql.rules:
+Finished snort3-server-mssql.rules:
+Loading snort3-server-mysql.rules:
+Finished snort3-server-mysql.rules:
+Loading snort3-server-oracle.rules:
+Finished snort3-server-oracle.rules:
+Loading snort3-server-other.rules:
+Finished snort3-server-other.rules:
+Loading snort3-server-samba.rules:
+Finished snort3-server-samba.rules:
+Loading snort3-server-webapp.rules:
+Finished snort3-server-webapp.rules:
+Loading snort3-sql.rules:
+Finished snort3-sql.rules:
+Loading snort3-x11.rules:
+Finished snort3-x11.rules:
+Finished ../rules/3.0.0.0/includes.rules:
+Finished ips.rules:
+--------------------------------------------------
+ips policies rule stats
+              id  loaded  shared enabled    file
+               0   45940    4020   45940    /usr/local/etc/snort/snort.lua
+--------------------------------------------------
+rule counts
+       total rules loaded: 45940
+          duplicate rules: 4020
+               text rules: 45940
+            option chains: 45940
+            chain headers: 6200
+                 flowbits: 712
+     flowbits not checked: 69
+--------------------------------------------------
+port rule counts
+             tcp     udp    icmp      ip
+     any    1820     391     471     298
+     src    1241     157       0       0
+     dst    5307    1005       0       0
+    both     109      54       0       0
+   total    8477    1607     471     298
+--------------------------------------------------
+service rule counts          to-srv  to-cli
+                      bgp:        5       1
+                   dcerpc:     1367     832
+                     dhcp:       37      10
+                     dnp3:        0       6
+                      dns:      276     117
+                     drda:        5       0
+                     file:      710     721
+                  file_id:      219     219
+                      ftp:      196      24
+                 ftp-data:      795   10720
+                   gopher:        0       1
+                     http:    14865   14127
+                    http2:    14865   14127
+                    http3:    14865   14127
+                    ident:        1       0
+                     igmp:        1       1
+                     imap:      841   10971
+                      irc:       40      14
+                     ircd:        9       3
+                 java_rmi:       55       3
+                 kerberos:       33       6
+                     ldap:       47       8
+                      ldp:        1       0
+                   modbus:       34      10
+                    mysql:       67       7
+              netbios-dgm:       11      11
+               netbios-ns:       15       5
+              netbios-ssn:     1259     813
+                  netware:        2       0
+                     nntp:        2       2
+                      ntp:       36       7
+                  openvpn:       16      16
+                     pop3:      800   10974
+               postgresql:        8       0
+                  printer:        6       0
+                   radius:        3       2
+                      rdp:       10      20
+                     rtmp:        1       4
+                      rtp:        1       1
+                     rtsp:       17       2
+                      sip:      338      44
+                     smtp:     9871     748
+                     snmp:       49      10
+                     ssdp:       13       0
+                      ssh:       10       4
+                      ssl:      206     221
+                   sunrpc:      130       9
+                   syslog:        4       0
+                 teamview:        1       2
+                   telnet:       61      15
+                     tftp:       11       6
+                      vnc:        1       1
+               vnc-server:       12      10
+                     wins:        3       0
+                    total:    62231   78982
+--------------------------------------------------
+fast pattern groups
+                      src: 510
+                      dst: 1629
+                      any: 8
+                to_server: 131
+                to_client: 98
+--------------------------------------------------
+search engine (ac_bnfa)
+                instances: 1303
+                 patterns: 157303
+            pattern chars: 3848078
+               num states: 2945922
+         num match states: 419153
+             memory scale: MB
+             total memory: 95.1651
+           pattern memory: 9.6692
+        match list memory: 50.3871
+        transition memory: 34.9497
+        fast pattern only: 105124
+appid: MaxRss diff: 256
+appid: patterns loaded: 300
+--------------------------------------------------
+pcap DAQ configured to read-file.
+Commencing packet processing
+++ [0] /home/dit/Descargas/pcaps/Modicon.pcap
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:01:35.362593 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:01:36.382654 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:01:37.392808 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:01:38.413952 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:01:39.424153 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:01:40.439032 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:01:41.450259 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:01:42.470407 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:01:43.482432 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:01:44.492614 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:01:45.513276 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:01:46.522686 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:01:47.540471 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:01:48.553917 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:01:49.564573 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:01:50.574246 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:01:50.668391 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:01:50.868129 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:01:50.876124 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:01:50.881382 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:01:50.965452 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:01:50.969402 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:01:51.076988 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:01:51.078906 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:01:51.079504 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:01:51.097966 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:01:51.114195 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:01:51.235085 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:01:51.376467 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:01:51.594337 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:01:52.602496 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:01:53.623494 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:01:54.633629 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:01:55.643749 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:01:56.664831 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:01:57.672016 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:01:57.940090 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:01:58.693089 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:01:59.703102 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:02:00.723289 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:02:01.733403 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:01.896046 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:02:02.743451 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:02:03.766145 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:02:04.775799 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:04.959175 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:02:05.785767 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:06.309488 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:06.714816 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:06.730039 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:02:06.805923 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:06.844981 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:06.845734 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:06.845730 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:06.954913 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:06.954840 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:07.032876 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:07.032866 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:07.036441 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:07.063905 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:07.063882 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:07.154485 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:07.154096 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:07.173495 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:07.173205 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:07.252130 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:07.252111 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:07.255328 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:07.266818 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:07.266846 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:07.255333 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:07.368344 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:02:07.816518 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:02:08.860298 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:02:09.847285 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:02:10.858022 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:11.226909 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:11.317893 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:11.316970 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:11.316947 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:11.385539 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:11.554918 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:11.557066 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:02:11.868494 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:11.888364 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:11.888127 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:11.888833 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:11.888317 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:11.891808 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:11.891745 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:12.097386 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:02:12.888578 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:02:13.899709 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:14.634726 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:02:14.919826 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:14.958159 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:02:15.929951 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:16.838088 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:02:16.940063 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:02:17.961204 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:02:18.972203 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:02:19.982307 
+[**] [1:37393:3] "SERVER-WEBAPP Schneider default password login attempt" [**]
+01/13-15:02:19.991666 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:19.991666 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:20.120137 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:02:21.002545 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:21.610146 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:21.741741 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:21.742335 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:21.748203 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:21.836661 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:21.838106 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:21.944914 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:21.945313 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:21.951190 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:21.946220 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:02:22.012569 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:22.040065 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:22.042963 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:22.055794 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:22.143681 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:02:23.032698 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:02:24.043820 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:02:25.053922 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:02:26.074044 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:02:27.084181 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:02:28.094221 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:02:29.115389 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:02:30.125460 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:02:31.135543 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:02:32.155636 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:02:33.165791 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:02:34.186915 
+[**] [1:13360:9] "APP-DETECT FTP 530 Login failed response" [**]
+01/13-15:02:34.745595 
+[**] [1:491:15] "PROTOCOL-FTP Bad login" [**]
+01/13-15:02:34.745595 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:02:35.197029 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:02:36.207102 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:02:37.222234 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:02:38.242338 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:02:39.253441 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:02:40.263548 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:02:41.283699 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:02:42.293746 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:02:43.313879 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:02:44.324952 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:02:45.335067 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:02:46.355186 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:46.515907 
+[**] [1:41742:4] "POLICY-OTHER external admin access attempt" [**]
+01/13-15:02:46.544985 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:46.544985 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:46.610197 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:46.641531 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:02:46.687222 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:02:47.365296 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:02:48.375414 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:02:49.396732 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:02:50.406648 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:02:51.416701 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:02:52.436785 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:02:53.446959 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:02:54.468060 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:02:55.478130 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:02:56.488196 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:02:57.508417 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:02:58.518541 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:02:59.529630 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:03:00.549676 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:03:01.559810 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:03:02.579927 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:03:03.590079 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:03:04.601160 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:03:05.621221 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:03:06.631351 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:03:07.651461 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:03:08.661571 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:03:09.672768 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:03:10.692941 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:03:11.706881 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:03:12.717037 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:03:13.727629 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:03:14.748331 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:03:15.758722 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:03:17.788649 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:03:18.798709 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:03:19.819731 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:03:20.829956 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:03:21.840037 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:03:22.860148 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:03:23.870223 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:03:24.881265 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:03:25.901440 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:03:26.911599 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:03:27.931672 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:03:28.941728 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:03:29.952852 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:03:30.972950 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:03:31.983161 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:03:32.993254 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:03:34.013329 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:03:35.024489 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:03:36.044557 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:03:37.054581 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:03:38.064802 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:03:39.084938 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:03:40.095960 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:03:41.107167 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:03:42.127169 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:03:43.137314 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:03:44.157429 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:03:45.168514 
+[**] [1:1418:19] "PROTOCOL-SNMP request tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+01/13-15:03:45.666400 10.200.1.252:63092 -> 10.50.1.52:161
+TCP TTL:255 TOS:0x0 ID:32135 IpLen:20 DgmLen:64 DF
+******S* Seq: 0xDDB49AC5  Ack: 0x0  Win: 0xFFFF  TcpLen: 44
+TCP Options (7) => MSS: 1460 NOP WS: 5 NOP NOP TS: 573759616 0 SackOK 
+
+[**] [1:1418:19] "PROTOCOL-SNMP request tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+01/13-15:03:45.680581 10.200.1.252:63187 -> 10.50.1.52:161
+TCP TTL:255 TOS:0x0 ID:55032 IpLen:20 DgmLen:64 DF
+******S* Seq: 0x1DDEC16C  Ack: 0x0  Win: 0xFFFF  TcpLen: 44
+TCP Options (7) => MSS: 1460 NOP WS: 5 NOP NOP TS: 573759709 0 SackOK 
+
+[**] [1:1421:19] "PROTOCOL-SNMP AgentX/tcp request" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+01/13-15:03:45.987304 10.200.1.252:63440 -> 10.50.1.52:705
+TCP TTL:255 TOS:0x0 ID:33656 IpLen:20 DgmLen:64 DF
+******S* Seq: 0xD714238A  Ack: 0x0  Win: 0xFFFF  TcpLen: 44
+TCP Options (7) => MSS: 1460 NOP WS: 5 NOP NOP TS: 573759980 0 SackOK 
+
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:03:46.178661 
+[**] [1:1421:19] "PROTOCOL-SNMP AgentX/tcp request" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+01/13-15:03:46.379623 10.200.1.252:63529 -> 10.50.1.52:705
+TCP TTL:255 TOS:0x0 ID:48815 IpLen:20 DgmLen:64 DF
+******S* Seq: 0x6DD526B  Ack: 0x0  Win: 0xFFFF  TcpLen: 44
+TCP Options (7) => MSS: 1460 NOP WS: 5 NOP NOP TS: 573760076 0 SackOK 
+
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:03:47.198842 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:03:48.208855 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:03:49.219017 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:03:50.240155 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:03:51.250221 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:03:52.260245 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:03:53.280388 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:03:54.290635 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:03:55.311797 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:03:56.321666 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:03:57.332016 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:03:58.352083 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:03:59.362074 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:04:00.374128 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:04:01.394295 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:04:02.404505 
+[**] [1:37393:3] "SERVER-WEBAPP Schneider default password login attempt" [**]
+01/13-15:03:17.036301 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:03:17.036301 
+[**] [1:37393:3] "SERVER-WEBAPP Schneider default password login attempt" [**]
+01/13-15:04:02.639594 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:04:02.639594 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:04:02.954622 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:04:03.424411 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:04:04.434957 
+[**] [1:37393:3] "SERVER-WEBAPP Schneider default password login attempt" [**]
+01/13-15:04:04.760728 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:04:04.760728 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:04:05.033705 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:04:05.445672 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:04:06.465847 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:04:07.475805 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:04:08.486031 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:04:08.694233 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:04:08.837821 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:04:08.902625 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:04:08.943589 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:04:09.506196 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:04:09.784821 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:04:09.793407 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:04:09.894274 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:04:09.895420 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:04:09.896000 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:04:09.908458 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:04:10.070393 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:04:10.071314 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:04:10.239829 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:04:10.517222 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:04:11.530369 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:04:12.290555 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:04:12.550462 
+[**] [1:37393:3] "SERVER-WEBAPP Schneider default password login attempt" [**]
+01/13-15:04:12.590020 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:04:12.590020 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:04:12.697403 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:04:13.560609 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:04:14.570686 
+[**] [1:37393:3] "SERVER-WEBAPP Schneider default password login attempt" [**]
+01/13-15:04:14.823861 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:04:14.823861 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:04:14.939995 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:04:15.591826 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/13-15:04:16.841529 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:04:17.612098 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:04:18.632138 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:04:19.642270 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:04:20.663319 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:04:21.673470 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:04:22.691477 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:04:23.731973 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:04:24.713796 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:04:25.724898 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:04:26.745074 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:04:27.762283 
+[**] [1:17790:5] "PROTOCOL-SCADA Modbus read holding registers from external source" [**]
+01/13-15:04:28.772313 
+-- [0] /home/dit/Descargas/pcaps/Modicon.pcap
+--------------------------------------------------
+Packet Statistics
+--------------------------------------------------
+daq
+                    pcaps: 1
+                 received: 4193
+                 analyzed: 4193
+                    allow: 4193
+                 rx_bytes: 816137
+--------------------------------------------------
+codec
+                    total: 4193        	(100.000%)
+                      eth: 4193        	(100.000%)
+                     ipv4: 4193        	(100.000%)
+                      tcp: 4193        	(100.000%)
+--------------------------------------------------
+Module Statistics
+--------------------------------------------------
+ac_bnfa
+                 searches: 2826
+                  matches: 54468
+                    bytes: 1045432
+--------------------------------------------------
+ac_full
+                 searches: 424
+                  matches: 370
+                    bytes: 17193
+--------------------------------------------------
+appid
+                  packets: 4193
+        processed_packets: 4094
+          ignored_packets: 99
+           total_sessions: 1850
+       service_cache_adds: 2
+             bytes_in_use: 304
+             items_in_use: 2
+--------------------------------------------------
+binder
+              raw_packets: 99
+                new_flows: 1850
+          service_changes: 23
+                 inspects: 1949
+--------------------------------------------------
+detection
+                 analyzed: 4193
+               hard_evals: 7524
+             raw_searches: 94
+          cooked_searches: 1344
+             pkt_searches: 1438
+             pdu_searches: 1184
+            file_searches: 204
+                   alerts: 285
+             total_alerts: 285
+                   logged: 285
+           cont_creations: 172
+               cont_flows: 2
+               cont_evals: 169
+          cont_mismatches: 169
+             cont_max_num: 2
+   cont_mismatch_distance: 169
+                buf_dumps: 273
+--------------------------------------------------
+file_id
+              total_files: 100
+          total_file_data: 71372
+     max_concurrent_files: 1
+--------------------------------------------------
+ftp_server
+            total_packets: 5
+              total_bytes: 102
+  max_concurrent_sessions: 1
+     ssl_search_abandoned: 1
+--------------------------------------------------
+http_inspect
+                    flows: 22
+                    scans: 677
+              reassembles: 653
+              inspections: 508
+                 requests: 102
+                responses: 100
+             get_requests: 102
+       uri_normalizations: 9
+  max_concurrent_sessions: 17
+          pipelined_flows: 1
+       pipelined_requests: 5
+              total_bytes: 259976
+--------------------------------------------------
+ips_actions
+                    alert: 285
+                  file_id: 8
+--------------------------------------------------
+modbus
+                 sessions: 1
+                   frames: 338
+  max_concurrent_sessions: 1
+--------------------------------------------------
+normalizer
+        test_tcp_trim_win: 7
+--------------------------------------------------
+pcre
+               pcre_rules: 12936
+              pcre_native: 12936
+--------------------------------------------------
+port_scan
+                  packets: 4193
+                 trackers: 12
+--------------------------------------------------
+search_engine
+               max_queued: 3982
+            total_flushed: 12864
+            total_inserts: 54468
+             total_unique: 12864
+     non_qualified_events: 20027
+         qualified_events: 331
+--------------------------------------------------
+stream
+                    flows: 1850
+             total_prunes: 1
+idle_prunes_proto_timeout: 1
+       tcp_timeout_prunes: 1
+--------------------------------------------------
+stream_tcp
+                 sessions: 1850
+                      max: 1850
+                  created: 1850
+                 released: 1850
+             instantiated: 1850
+                   setups: 1850
+                 restarts: 23
+          invalid_seq_num: 7
+             syn_trackers: 1848
+         syn_ack_trackers: 1
+            data_trackers: 1
+              segs_queued: 693
+            segs_released: 693
+                segs_used: 687
+          rebuilt_packets: 852
+          rebuilt_buffers: 9
+            rebuilt_bytes: 266498
+                     gaps: 2
+                     syns: 1902
+                 syn_acks: 84
+                   resets: 40
+                     fins: 76
+        partial_fallbacks: 1
+                 max_segs: 17
+                max_bytes: 24252
+        keep_alive_probes: 7
+         asymmetric_flows: 1807
+--------------------------------------------------
+wizard
+                tcp_scans: 23
+                 tcp_hits: 23
+--------------------------------------------------
+Appid Statistics
+--------------------------------------------------
+detected apps and services
+              Application: Services   Clients    Users      Payloads   Misc       Referred  
+                  unknown: 46         22         0          22         0          0         
+--------------------------------------------------
+File Statistics
+--------------------------------------------------
+file stats
+                     Type TypeDn     TypeUp     BytesDn    BytesUp   
+                  GIF(62) 2          0          0          0         
+                  GIF(63) 1          0          0          0         
+                 JPEG(70) 5          0          0          0         
+                    Total 8          0          0          0         
+--------------------------------------------------
+Summary Statistics
+--------------------------------------------------
+timing
+                  runtime: 00:00:00
+                  seconds: 0.231766
+                 pkts/sec: 18092
+                Mbits/sec: 28
+o")~   Snort exiting
