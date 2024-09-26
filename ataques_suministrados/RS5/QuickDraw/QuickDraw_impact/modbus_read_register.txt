@@ -1,0 +1,1 @@
+04/23-20:13:30.171750  [**] [1:1111006:1] SCADA_IDS: Modbus TCP - Unauthorized Read Request to a PLC [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 192.168.100.2:46107 -> 192.168.100.3:502
