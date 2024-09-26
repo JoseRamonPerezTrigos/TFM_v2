@@ -1,0 +1,782 @@
+--------------------------------------------------
+o")~   Snort++ 3.3.1.0
+--------------------------------------------------
+Loading /usr/local/etc/snort/snort.lua:
+Loading snort_defaults.lua:
+Finished snort_defaults.lua:
+	stream_user
+	wizard
+	stream_file
+	js_norm
+	ssl
+	port_scan
+	ftp_server
+	trace
+	alerts
+	daq
+	hosts
+	process
+	so_proxy
+	arp_spoof
+	back_orifice
+	dns
+	imap
+	netflow
+	normalizer
+	pop
+	rpc_decode
+	sip
+	ssh
+	telnet
+	cip
+	dnp3
+	iec104
+	s7commplus
+	dce_smb
+	dce_tcp
+	dce_udp
+	dce_http_proxy
+	dce_http_server
+	gtp_inspect
+	smtp
+	ftp_client
+	ftp_data
+	http_inspect
+	http2_inspect
+	modbus
+	mms
+	file_policy
+	appid
+	binder
+	stream_udp
+	stream_tcp
+	stream_icmp
+	stream_ip
+	stream
+	references
+	classifications
+	output
+	ips
+	file_id
+	active
+	host_tracker
+	network
+	packets
+	search_engine
+	host_cache
+	decode
+Finished /usr/local/etc/snort/snort.lua:
+Loading file_id.rules_file:
+Loading file_magic.rules:
+Finished file_magic.rules:
+Finished file_id.rules_file:
+Loading ips.rules:
+Loading ../rules/snort3-community.rules:
+Finished ../rules/snort3-community.rules:
+Loading ../rules/3.0.0.0/includes.rules:
+Loading snort3-app-detect.rules:
+Finished snort3-app-detect.rules:
+Loading snort3-browser-chrome.rules:
+Finished snort3-browser-chrome.rules:
+Loading snort3-browser-firefox.rules:
+Finished snort3-browser-firefox.rules:
+Loading snort3-browser-ie.rules:
+Finished snort3-browser-ie.rules:
+Loading snort3-browser-other.rules:
+Finished snort3-browser-other.rules:
+Loading snort3-browser-plugins.rules:
+Finished snort3-browser-plugins.rules:
+Loading snort3-browser-webkit.rules:
+Finished snort3-browser-webkit.rules:
+Loading snort3-content-replace.rules:
+Finished snort3-content-replace.rules:
+Loading snort3-exploit-kit.rules:
+Finished snort3-exploit-kit.rules:
+Loading snort3-file-executable.rules:
+Finished snort3-file-executable.rules:
+Loading snort3-file-flash.rules:
+Finished snort3-file-flash.rules:
+Loading snort3-file-identify.rules:
+Finished snort3-file-identify.rules:
+Loading snort3-file-image.rules:
+Finished snort3-file-image.rules:
+Loading snort3-file-java.rules:
+Finished snort3-file-java.rules:
+Loading snort3-file-multimedia.rules:
+Finished snort3-file-multimedia.rules:
+Loading snort3-file-office.rules:
+Finished snort3-file-office.rules:
+Loading snort3-file-other.rules:
+Finished snort3-file-other.rules:
+Loading snort3-file-pdf.rules:
+Finished snort3-file-pdf.rules:
+Loading snort3-indicator-compromise.rules:
+Finished snort3-indicator-compromise.rules:
+Loading snort3-indicator-obfuscation.rules:
+Finished snort3-indicator-obfuscation.rules:
+Loading snort3-indicator-scan.rules:
+Finished snort3-indicator-scan.rules:
+Loading snort3-indicator-shellcode.rules:
+Finished snort3-indicator-shellcode.rules:
+Loading snort3-malware-backdoor.rules:
+Finished snort3-malware-backdoor.rules:
+Loading snort3-malware-cnc.rules:
+Finished snort3-malware-cnc.rules:
+Loading snort3-malware-other.rules:
+Finished snort3-malware-other.rules:
+Loading snort3-malware-tools.rules:
+Finished snort3-malware-tools.rules:
+Loading snort3-netbios.rules:
+Finished snort3-netbios.rules:
+Loading snort3-os-linux.rules:
+Finished snort3-os-linux.rules:
+Loading snort3-os-mobile.rules:
+Finished snort3-os-mobile.rules:
+Loading snort3-os-other.rules:
+Finished snort3-os-other.rules:
+Loading snort3-os-solaris.rules:
+Finished snort3-os-solaris.rules:
+Loading snort3-os-windows.rules:
+Finished snort3-os-windows.rules:
+Loading snort3-policy-multimedia.rules:
+Finished snort3-policy-multimedia.rules:
+Loading snort3-policy-other.rules:
+Finished snort3-policy-other.rules:
+Loading snort3-policy-social.rules:
+Finished snort3-policy-social.rules:
+Loading snort3-policy-spam.rules:
+Finished snort3-policy-spam.rules:
+Loading snort3-protocol-dns.rules:
+Finished snort3-protocol-dns.rules:
+Loading snort3-protocol-finger.rules:
+Finished snort3-protocol-finger.rules:
+Loading snort3-protocol-ftp.rules:
+Finished snort3-protocol-ftp.rules:
+Loading snort3-protocol-icmp.rules:
+Finished snort3-protocol-icmp.rules:
+Loading snort3-protocol-imap.rules:
+Finished snort3-protocol-imap.rules:
+Loading snort3-protocol-nntp.rules:
+Finished snort3-protocol-nntp.rules:
+Loading snort3-protocol-other.rules:
+Finished snort3-protocol-other.rules:
+Loading snort3-protocol-pop.rules:
+Finished snort3-protocol-pop.rules:
+Loading snort3-protocol-rpc.rules:
+Finished snort3-protocol-rpc.rules:
+Loading snort3-protocol-scada.rules:
+Finished snort3-protocol-scada.rules:
+Loading snort3-protocol-services.rules:
+Finished snort3-protocol-services.rules:
+Loading snort3-protocol-snmp.rules:
+Finished snort3-protocol-snmp.rules:
+Loading snort3-protocol-telnet.rules:
+Finished snort3-protocol-telnet.rules:
+Loading snort3-protocol-tftp.rules:
+Finished snort3-protocol-tftp.rules:
+Loading snort3-protocol-voip.rules:
+Finished snort3-protocol-voip.rules:
+Loading snort3-pua-adware.rules:
+Finished snort3-pua-adware.rules:
+Loading snort3-pua-other.rules:
+Finished snort3-pua-other.rules:
+Loading snort3-pua-p2p.rules:
+Finished snort3-pua-p2p.rules:
+Loading snort3-pua-toolbars.rules:
+Finished snort3-pua-toolbars.rules:
+Loading snort3-server-apache.rules:
+Finished snort3-server-apache.rules:
+Loading snort3-server-iis.rules:
+Finished snort3-server-iis.rules:
+Loading snort3-server-mail.rules:
+Finished snort3-server-mail.rules:
+Loading snort3-server-mssql.rules:
+Finished snort3-server-mssql.rules:
+Loading snort3-server-mysql.rules:
+Finished snort3-server-mysql.rules:
+Loading snort3-server-oracle.rules:
+Finished snort3-server-oracle.rules:
+Loading snort3-server-other.rules:
+Finished snort3-server-other.rules:
+Loading snort3-server-samba.rules:
+Finished snort3-server-samba.rules:
+Loading snort3-server-webapp.rules:
+Finished snort3-server-webapp.rules:
+Loading snort3-sql.rules:
+Finished snort3-sql.rules:
+Loading snort3-x11.rules:
+Finished snort3-x11.rules:
+Finished ../rules/3.0.0.0/includes.rules:
+Finished ips.rules:
+--------------------------------------------------
+ips policies rule stats
+              id  loaded  shared enabled    file
+               0   45940    4020   45940    /usr/local/etc/snort/snort.lua
+--------------------------------------------------
+rule counts
+       total rules loaded: 45940
+          duplicate rules: 4020
+               text rules: 45940
+            option chains: 45940
+            chain headers: 6200
+                 flowbits: 712
+     flowbits not checked: 69
+--------------------------------------------------
+port rule counts
+             tcp     udp    icmp      ip
+     any    1820     391     471     298
+     src    1241     157       0       0
+     dst    5307    1005       0       0
+    both     109      54       0       0
+   total    8477    1607     471     298
+--------------------------------------------------
+service rule counts          to-srv  to-cli
+                      bgp:        5       1
+                   dcerpc:     1367     832
+                     dhcp:       37      10
+                     dnp3:        0       6
+                      dns:      276     117
+                     drda:        5       0
+                     file:      710     721
+                  file_id:      219     219
+                      ftp:      196      24
+                 ftp-data:      795   10720
+                   gopher:        0       1
+                     http:    14865   14127
+                    http2:    14865   14127
+                    http3:    14865   14127
+                    ident:        1       0
+                     igmp:        1       1
+                     imap:      841   10971
+                      irc:       40      14
+                     ircd:        9       3
+                 java_rmi:       55       3
+                 kerberos:       33       6
+                     ldap:       47       8
+                      ldp:        1       0
+                   modbus:       34      10
+                    mysql:       67       7
+              netbios-dgm:       11      11
+               netbios-ns:       15       5
+              netbios-ssn:     1259     813
+                  netware:        2       0
+                     nntp:        2       2
+                      ntp:       36       7
+                  openvpn:       16      16
+                     pop3:      800   10974
+               postgresql:        8       0
+                  printer:        6       0
+                   radius:        3       2
+                      rdp:       10      20
+                     rtmp:        1       4
+                      rtp:        1       1
+                     rtsp:       17       2
+                      sip:      338      44
+                     smtp:     9871     748
+                     snmp:       49      10
+                     ssdp:       13       0
+                      ssh:       10       4
+                      ssl:      206     221
+                   sunrpc:      130       9
+                   syslog:        4       0
+                 teamview:        1       2
+                   telnet:       61      15
+                     tftp:       11       6
+                      vnc:        1       1
+               vnc-server:       12      10
+                     wins:        3       0
+                    total:    62231   78982
+--------------------------------------------------
+fast pattern groups
+                      src: 510
+                      dst: 1629
+                      any: 8
+                to_server: 131
+                to_client: 98
+--------------------------------------------------
+search engine (ac_bnfa)
+                instances: 1303
+                 patterns: 157303
+            pattern chars: 3848078
+               num states: 2945922
+         num match states: 419153
+             memory scale: MB
+             total memory: 95.1651
+           pattern memory: 9.6692
+        match list memory: 50.3871
+        transition memory: 34.9497
+        fast pattern only: 105122
+appid: MaxRss diff: 1024
+appid: patterns loaded: 300
+--------------------------------------------------
+pcap DAQ configured to read-file.
+Commencing packet processing
+++ [0] /home/dit/Descargas/pcaps/BACnet_Host.pcap
+[**] [1:402:16] "PROTOCOL-ICMP destination unreachable port unreachable packet detected" [**]
+[Classification: Misc activity] [Priority: 3] 
+01/01-02:00:00.000000 10.200.1.233 -> 10.200.1.15
+ICMP TTL:64 TOS:0xC0 ID:43803 IpLen:20 DgmLen:74
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+10.200.1.15:47808 -> 10.200.1.233:47809
+UDP TTL:64 TOS:0x0 ID:0 IpLen:20 DgmLen:46 DF
+Len: 18  Csum: 6068
+(18 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:16] "PROTOCOL-ICMP destination unreachable port unreachable packet detected" [**]
+[Classification: Misc activity] [Priority: 3] 
+01/01-02:00:00.000000 10.200.1.233 -> 10.200.1.15
+ICMP TTL:64 TOS:0xC0 ID:43804 IpLen:20 DgmLen:87
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+10.200.1.15:47808 -> 10.200.1.233:47809
+UDP TTL:64 TOS:0x0 ID:0 IpLen:20 DgmLen:59 DF
+Len: 31  Csum: 24009
+(31 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:16] "PROTOCOL-ICMP destination unreachable port unreachable packet detected" [**]
+[Classification: Misc activity] [Priority: 3] 
+01/01-02:00:00.000000 10.200.1.233 -> 10.200.1.15
+ICMP TTL:64 TOS:0xC0 ID:43805 IpLen:20 DgmLen:74
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+10.200.1.15:47808 -> 10.200.1.233:47809
+UDP TTL:64 TOS:0x0 ID:0 IpLen:20 DgmLen:46 DF
+Len: 18  Csum: 6068
+(18 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:16] "PROTOCOL-ICMP destination unreachable port unreachable packet detected" [**]
+[Classification: Misc activity] [Priority: 3] 
+01/01-02:00:00.000000 10.200.1.233 -> 10.200.1.15
+ICMP TTL:64 TOS:0xC0 ID:43806 IpLen:20 DgmLen:87
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+10.200.1.15:47808 -> 10.200.1.233:47809
+UDP TTL:64 TOS:0x0 ID:0 IpLen:20 DgmLen:59 DF
+Len: 31  Csum: 24009
+(31 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:16] "PROTOCOL-ICMP destination unreachable port unreachable packet detected" [**]
+[Classification: Misc activity] [Priority: 3] 
+01/01-02:00:00.000000 10.200.1.233 -> 10.200.1.15
+ICMP TTL:64 TOS:0xC0 ID:43945 IpLen:20 DgmLen:87
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+10.200.1.15:47808 -> 10.200.1.233:47809
+UDP TTL:64 TOS:0x0 ID:0 IpLen:20 DgmLen:59 DF
+Len: 31  Csum: 24009
+(31 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:16] "PROTOCOL-ICMP destination unreachable port unreachable packet detected" [**]
+[Classification: Misc activity] [Priority: 3] 
+01/01-02:00:00.000000 10.200.1.233 -> 10.200.1.15
+ICMP TTL:64 TOS:0xC0 ID:43943 IpLen:20 DgmLen:74
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+10.200.1.15:47808 -> 10.200.1.233:47809
+UDP TTL:64 TOS:0x0 ID:0 IpLen:20 DgmLen:46 DF
+Len: 18  Csum: 6068
+(18 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:16] "PROTOCOL-ICMP destination unreachable port unreachable packet detected" [**]
+[Classification: Misc activity] [Priority: 3] 
+01/01-02:00:00.000000 10.200.1.233 -> 10.200.1.15
+ICMP TTL:64 TOS:0xC0 ID:43944 IpLen:20 DgmLen:74
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+10.200.1.15:47808 -> 10.200.1.233:47809
+UDP TTL:64 TOS:0x0 ID:0 IpLen:20 DgmLen:46 DF
+Len: 18  Csum: 6068
+(18 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:16] "PROTOCOL-ICMP destination unreachable port unreachable packet detected" [**]
+[Classification: Misc activity] [Priority: 3] 
+01/01-02:00:00.000000 10.200.1.127 -> 10.200.1.15
+ICMP TTL:64 TOS:0xC0 ID:32207 IpLen:20 DgmLen:87
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+10.200.1.15:47808 -> 10.200.1.127:47809
+UDP TTL:64 TOS:0x0 ID:0 IpLen:20 DgmLen:59 DF
+Len: 31  Csum: 24115
+(31 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:16] "PROTOCOL-ICMP destination unreachable port unreachable packet detected" [**]
+[Classification: Misc activity] [Priority: 3] 
+01/01-02:00:00.000000 10.200.1.127 -> 10.200.1.15
+ICMP TTL:64 TOS:0xC0 ID:32205 IpLen:20 DgmLen:80
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+10.200.1.15:47808 -> 10.200.1.127:47809
+UDP TTL:64 TOS:0x0 ID:0 IpLen:20 DgmLen:52 DF
+Len: 24  Csum: 52991
+(24 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:16] "PROTOCOL-ICMP destination unreachable port unreachable packet detected" [**]
+[Classification: Misc activity] [Priority: 3] 
+01/01-02:00:00.000000 10.200.1.127 -> 10.200.1.15
+ICMP TTL:64 TOS:0xC0 ID:32206 IpLen:20 DgmLen:80
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+10.200.1.15:47808 -> 10.200.1.127:47809
+UDP TTL:64 TOS:0x0 ID:0 IpLen:20 DgmLen:52 DF
+Len: 24  Csum: 52991
+(24 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:16] "PROTOCOL-ICMP destination unreachable port unreachable packet detected" [**]
+[Classification: Misc activity] [Priority: 3] 
+01/01-02:00:00.000000 10.200.1.127 -> 10.200.1.15
+ICMP TTL:64 TOS:0xC0 ID:32208 IpLen:20 DgmLen:80
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+10.200.1.15:47808 -> 10.200.1.127:47809
+UDP TTL:64 TOS:0x0 ID:0 IpLen:20 DgmLen:52 DF
+Len: 24  Csum: 52991
+(24 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:16] "PROTOCOL-ICMP destination unreachable port unreachable packet detected" [**]
+[Classification: Misc activity] [Priority: 3] 
+01/01-02:00:00.000000 10.200.1.127 -> 10.200.1.15
+ICMP TTL:64 TOS:0xC0 ID:32209 IpLen:20 DgmLen:80
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+10.200.1.15:47808 -> 10.200.1.127:47809
+UDP TTL:64 TOS:0x0 ID:0 IpLen:20 DgmLen:52 DF
+Len: 24  Csum: 52991
+(24 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:16] "PROTOCOL-ICMP destination unreachable port unreachable packet detected" [**]
+[Classification: Misc activity] [Priority: 3] 
+01/01-02:00:00.000000 10.200.1.127 -> 10.200.1.15
+ICMP TTL:64 TOS:0xC0 ID:32209 IpLen:20 DgmLen:80
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+10.200.1.15:47808 -> 10.200.1.127:47809
+UDP TTL:64 TOS:0x0 ID:0 IpLen:20 DgmLen:52 DF
+Len: 24  Csum: 52991
+(24 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:16] "PROTOCOL-ICMP destination unreachable port unreachable packet detected" [**]
+[Classification: Misc activity] [Priority: 3] 
+01/01-02:00:00.000000 10.200.1.127 -> 10.200.1.15
+ICMP TTL:64 TOS:0xC0 ID:32210 IpLen:20 DgmLen:87
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+10.200.1.15:47808 -> 10.200.1.127:47809
+UDP TTL:64 TOS:0x0 ID:0 IpLen:20 DgmLen:59 DF
+Len: 31  Csum: 24115
+(31 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:16] "PROTOCOL-ICMP destination unreachable port unreachable packet detected" [**]
+[Classification: Misc activity] [Priority: 3] 
+01/01-02:00:00.000000 10.200.1.127 -> 10.200.1.15
+ICMP TTL:64 TOS:0xC0 ID:32211 IpLen:20 DgmLen:80
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+10.200.1.15:47808 -> 10.200.1.127:47809
+UDP TTL:64 TOS:0x0 ID:0 IpLen:20 DgmLen:52 DF
+Len: 24  Csum: 52991
+(24 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:16] "PROTOCOL-ICMP destination unreachable port unreachable packet detected" [**]
+[Classification: Misc activity] [Priority: 3] 
+01/01-02:00:00.000000 10.200.1.127 -> 10.200.1.15
+ICMP TTL:64 TOS:0xC0 ID:32213 IpLen:20 DgmLen:87
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+10.200.1.15:47808 -> 10.200.1.127:47809
+UDP TTL:64 TOS:0x0 ID:0 IpLen:20 DgmLen:59 DF
+Len: 31  Csum: 24115
+(31 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:16] "PROTOCOL-ICMP destination unreachable port unreachable packet detected" [**]
+[Classification: Misc activity] [Priority: 3] 
+01/01-02:00:00.000000 10.200.1.127 -> 10.200.1.15
+ICMP TTL:64 TOS:0xC0 ID:32212 IpLen:20 DgmLen:80
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+10.200.1.15:47808 -> 10.200.1.127:47809
+UDP TTL:64 TOS:0x0 ID:0 IpLen:20 DgmLen:52 DF
+Len: 24  Csum: 52991
+(24 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:16] "PROTOCOL-ICMP destination unreachable port unreachable packet detected" [**]
+[Classification: Misc activity] [Priority: 3] 
+01/01-02:00:00.000000 10.200.1.127 -> 10.200.1.15
+ICMP TTL:64 TOS:0xC0 ID:32213 IpLen:20 DgmLen:87
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+10.200.1.15:47808 -> 10.200.1.127:47809
+UDP TTL:64 TOS:0x0 ID:0 IpLen:20 DgmLen:59 DF
+Len: 31  Csum: 24115
+(31 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:16] "PROTOCOL-ICMP destination unreachable port unreachable packet detected" [**]
+[Classification: Misc activity] [Priority: 3] 
+01/01-02:00:00.000000 10.200.1.127 -> 10.200.1.15
+ICMP TTL:64 TOS:0xC0 ID:32202 IpLen:20 DgmLen:80
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+10.200.1.15:47808 -> 10.200.1.127:47809
+UDP TTL:64 TOS:0x0 ID:0 IpLen:20 DgmLen:52 DF
+Len: 24  Csum: 52991
+(24 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:16] "PROTOCOL-ICMP destination unreachable port unreachable packet detected" [**]
+[Classification: Misc activity] [Priority: 3] 
+01/01-02:00:00.000000 10.200.1.127 -> 10.200.1.15
+ICMP TTL:64 TOS:0xC0 ID:32203 IpLen:20 DgmLen:80
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+10.200.1.15:47808 -> 10.200.1.127:47809
+UDP TTL:64 TOS:0x0 ID:0 IpLen:20 DgmLen:52 DF
+Len: 24  Csum: 52991
+(24 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:16] "PROTOCOL-ICMP destination unreachable port unreachable packet detected" [**]
+[Classification: Misc activity] [Priority: 3] 
+01/01-02:00:00.000000 10.200.1.127 -> 10.200.1.15
+ICMP TTL:64 TOS:0xC0 ID:32204 IpLen:20 DgmLen:87
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+10.200.1.15:47808 -> 10.200.1.127:47809
+UDP TTL:64 TOS:0x0 ID:0 IpLen:20 DgmLen:59 DF
+Len: 31  Csum: 24115
+(31 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:16] "PROTOCOL-ICMP destination unreachable port unreachable packet detected" [**]
+[Classification: Misc activity] [Priority: 3] 
+01/01-02:00:00.000000 10.200.1.233 -> 10.200.1.15
+ICMP TTL:64 TOS:0xC0 ID:43529 IpLen:20 DgmLen:74
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+10.200.1.15:47808 -> 10.200.1.233:47809
+UDP TTL:64 TOS:0x0 ID:0 IpLen:20 DgmLen:46 DF
+Len: 18  Csum: 6068
+(18 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:16] "PROTOCOL-ICMP destination unreachable port unreachable packet detected" [**]
+[Classification: Misc activity] [Priority: 3] 
+01/01-02:00:00.000000 10.200.1.233 -> 10.200.1.15
+ICMP TTL:64 TOS:0xC0 ID:43530 IpLen:20 DgmLen:87
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+10.200.1.15:47808 -> 10.200.1.233:47809
+UDP TTL:64 TOS:0x0 ID:0 IpLen:20 DgmLen:59 DF
+Len: 31  Csum: 24009
+(31 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:16] "PROTOCOL-ICMP destination unreachable port unreachable packet detected" [**]
+[Classification: Misc activity] [Priority: 3] 
+01/01-02:00:00.000000 10.200.1.127 -> 10.200.1.15
+ICMP TTL:64 TOS:0xC0 ID:32202 IpLen:20 DgmLen:74
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+10.200.1.15:47808 -> 10.200.1.127:47809
+UDP TTL:64 TOS:0x0 ID:0 IpLen:20 DgmLen:46 DF
+Len: 18  Csum: 6170
+(18 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:16] "PROTOCOL-ICMP destination unreachable port unreachable packet detected" [**]
+[Classification: Misc activity] [Priority: 3] 
+01/01-02:00:00.000000 10.200.1.127 -> 10.200.1.15
+ICMP TTL:64 TOS:0xC0 ID:32202 IpLen:20 DgmLen:74
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+10.200.1.15:47808 -> 10.200.1.127:47809
+UDP TTL:64 TOS:0x0 ID:0 IpLen:20 DgmLen:46 DF
+Len: 18  Csum: 6170
+(18 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:16] "PROTOCOL-ICMP destination unreachable port unreachable packet detected" [**]
+[Classification: Misc activity] [Priority: 3] 
+01/01-02:00:00.000000 10.200.1.127 -> 10.200.1.15
+ICMP TTL:64 TOS:0xC0 ID:32203 IpLen:20 DgmLen:87
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+10.200.1.15:47808 -> 10.200.1.127:47809
+UDP TTL:64 TOS:0x0 ID:0 IpLen:20 DgmLen:59 DF
+Len: 31  Csum: 24115
+(31 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:16] "PROTOCOL-ICMP destination unreachable port unreachable packet detected" [**]
+[Classification: Misc activity] [Priority: 3] 
+01/01-02:00:00.000000 10.200.1.233 -> 10.200.1.15
+ICMP TTL:64 TOS:0xC0 ID:41796 IpLen:20 DgmLen:74
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+10.200.1.15:47808 -> 10.200.1.233:47809
+UDP TTL:64 TOS:0x0 ID:0 IpLen:20 DgmLen:46 DF
+Len: 18  Csum: 6064
+(18 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:16] "PROTOCOL-ICMP destination unreachable port unreachable packet detected" [**]
+[Classification: Misc activity] [Priority: 3] 
+01/01-02:00:00.000000 10.200.1.233 -> 10.200.1.15
+ICMP TTL:64 TOS:0xC0 ID:41797 IpLen:20 DgmLen:87
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+10.200.1.15:47808 -> 10.200.1.233:47809
+UDP TTL:64 TOS:0x0 ID:0 IpLen:20 DgmLen:59 DF
+Len: 31  Csum: 24009
+(31 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:16] "PROTOCOL-ICMP destination unreachable port unreachable packet detected" [**]
+[Classification: Misc activity] [Priority: 3] 
+01/01-02:00:00.000000 10.200.1.233 -> 10.200.1.15
+ICMP TTL:64 TOS:0xC0 ID:43181 IpLen:20 DgmLen:74
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+10.200.1.15:47808 -> 10.200.1.233:47809
+UDP TTL:64 TOS:0x0 ID:0 IpLen:20 DgmLen:46 DF
+Len: 18  Csum: 6194
+(18 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:402:16] "PROTOCOL-ICMP destination unreachable port unreachable packet detected" [**]
+[Classification: Misc activity] [Priority: 3] 
+01/01-02:00:00.000000 10.200.1.233 -> 10.200.1.15
+ICMP TTL:64 TOS:0xC0 ID:43182 IpLen:20 DgmLen:87
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+10.200.1.15:47808 -> 10.200.1.233:47809
+UDP TTL:64 TOS:0x0 ID:0 IpLen:20 DgmLen:59 DF
+Len: 31  Csum: 24009
+(31 more bytes of original packet)
+** END OF DUMP
+
+-- [0] /home/dit/Descargas/pcaps/BACnet_Host.pcap
+--------------------------------------------------
+Packet Statistics
+--------------------------------------------------
+daq
+                    pcaps: 1
+                 received: 21285
+                 analyzed: 21285
+                    allow: 21285
+                 rx_bytes: 1486618
+--------------------------------------------------
+codec
+                    total: 21285       	(100.000%)
+                      eth: 21285       	(100.000%)
+                    icmp4: 30          	(  0.141%)
+                 icmp4_ip: 30          	(  0.141%)
+                     ipv4: 21285       	(100.000%)
+                      udp: 21255       	( 99.859%)
+--------------------------------------------------
+Module Statistics
+--------------------------------------------------
+ac_bnfa
+                 searches: 21137
+                  matches: 131625
+                    bytes: 553136
+--------------------------------------------------
+ac_full
+                 searches: 46
+                  matches: 138
+                    bytes: 779
+--------------------------------------------------
+appid
+                  packets: 21285
+        processed_packets: 21285
+           total_sessions: 176
+       service_cache_adds: 7
+             bytes_in_use: 1064
+             items_in_use: 7
+--------------------------------------------------
+back_orifice
+                  packets: 13021
+--------------------------------------------------
+binder
+                new_flows: 176
+                 inspects: 176
+--------------------------------------------------
+detection
+                 analyzed: 21285
+               hard_evals: 21285
+             raw_searches: 21137
+             pkt_searches: 21137
+                   alerts: 30
+             total_alerts: 30
+                   logged: 30
+--------------------------------------------------
+ips_actions
+                    alert: 30
+--------------------------------------------------
+pcre
+               pcre_rules: 12936
+              pcre_native: 12936
+--------------------------------------------------
+port_scan
+                  packets: 21285
+                 trackers: 28
+--------------------------------------------------
+search_engine
+               max_queued: 121
+            total_flushed: 112848
+            total_inserts: 131625
+             total_unique: 112848
+     non_qualified_events: 134103
+         qualified_events: 30
+--------------------------------------------------
+stream
+                    flows: 176
+--------------------------------------------------
+stream_icmp
+                 sessions: 2
+                      max: 2
+                  created: 2
+                 released: 2
+--------------------------------------------------
+stream_udp
+                 sessions: 174
+                      max: 174
+                  created: 174
+                 released: 174
+              total_bytes: 552146
+--------------------------------------------------
+wizard
+                udp_scans: 32
+               udp_misses: 32
+--------------------------------------------------
+Appid Statistics
+--------------------------------------------------
+detected apps and services
+              Application: Services   Clients    Users      Payloads   Misc       Referred  
+                  unknown: 165        0          0          0          0          0         
+--------------------------------------------------
+Summary Statistics
+--------------------------------------------------
+timing
+                  runtime: 00:00:00
+                  seconds: 0.170147
+                 pkts/sec: 125098
+                Mbits/sec: 70
+o")~   Snort exiting

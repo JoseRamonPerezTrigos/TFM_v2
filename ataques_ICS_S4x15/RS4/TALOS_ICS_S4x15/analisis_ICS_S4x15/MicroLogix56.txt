@@ -1,0 +1,1583 @@
+--------------------------------------------------
+o")~   Snort++ 3.3.1.0
+--------------------------------------------------
+Loading /usr/local/etc/snort/snort.lua:
+Loading snort_defaults.lua:
+Finished snort_defaults.lua:
+	trace
+	output
+	wizard
+	appid
+	s7commplus
+	dce_smb
+	http2_inspect
+	active
+	daq
+	host_tracker
+	hosts
+	network
+	packets
+	process
+	search_engine
+	dce_udp
+	dce_http_proxy
+	dce_http_server
+	port_scan
+	smtp
+	ftp_server
+	ftp_client
+	ftp_data
+	http_inspect
+	gtp_inspect
+	dce_tcp
+	file_policy
+	js_norm
+	modbus
+	mms
+	iec104
+	dnp3
+	cip
+	telnet
+	ssl
+	ssh
+	sip
+	rpc_decode
+	pop
+	normalizer
+	netflow
+	imap
+	dns
+	back_orifice
+	arp_spoof
+	stream_file
+	stream_user
+	stream_udp
+	stream_tcp
+	stream_icmp
+	stream_ip
+	stream
+	binder
+	ips
+	file_id
+	references
+	classifications
+	alerts
+	decode
+	host_cache
+	so_proxy
+Finished /usr/local/etc/snort/snort.lua:
+Loading file_id.rules_file:
+Loading file_magic.rules:
+Finished file_magic.rules:
+Finished file_id.rules_file:
+Loading ips.rules:
+Loading ../rules/snort3-community.rules:
+Finished ../rules/snort3-community.rules:
+Loading ../rules/3.0.0.0/includes.rules:
+Loading snort3-app-detect.rules:
+Finished snort3-app-detect.rules:
+Loading snort3-browser-chrome.rules:
+Finished snort3-browser-chrome.rules:
+Loading snort3-browser-firefox.rules:
+Finished snort3-browser-firefox.rules:
+Loading snort3-browser-ie.rules:
+Finished snort3-browser-ie.rules:
+Loading snort3-browser-other.rules:
+Finished snort3-browser-other.rules:
+Loading snort3-browser-plugins.rules:
+Finished snort3-browser-plugins.rules:
+Loading snort3-browser-webkit.rules:
+Finished snort3-browser-webkit.rules:
+Loading snort3-content-replace.rules:
+Finished snort3-content-replace.rules:
+Loading snort3-exploit-kit.rules:
+Finished snort3-exploit-kit.rules:
+Loading snort3-file-executable.rules:
+Finished snort3-file-executable.rules:
+Loading snort3-file-flash.rules:
+Finished snort3-file-flash.rules:
+Loading snort3-file-identify.rules:
+Finished snort3-file-identify.rules:
+Loading snort3-file-image.rules:
+Finished snort3-file-image.rules:
+Loading snort3-file-java.rules:
+Finished snort3-file-java.rules:
+Loading snort3-file-multimedia.rules:
+Finished snort3-file-multimedia.rules:
+Loading snort3-file-office.rules:
+Finished snort3-file-office.rules:
+Loading snort3-file-other.rules:
+Finished snort3-file-other.rules:
+Loading snort3-file-pdf.rules:
+Finished snort3-file-pdf.rules:
+Loading snort3-indicator-compromise.rules:
+Finished snort3-indicator-compromise.rules:
+Loading snort3-indicator-obfuscation.rules:
+Finished snort3-indicator-obfuscation.rules:
+Loading snort3-indicator-scan.rules:
+Finished snort3-indicator-scan.rules:
+Loading snort3-indicator-shellcode.rules:
+Finished snort3-indicator-shellcode.rules:
+Loading snort3-malware-backdoor.rules:
+Finished snort3-malware-backdoor.rules:
+Loading snort3-malware-cnc.rules:
+Finished snort3-malware-cnc.rules:
+Loading snort3-malware-other.rules:
+Finished snort3-malware-other.rules:
+Loading snort3-malware-tools.rules:
+Finished snort3-malware-tools.rules:
+Loading snort3-netbios.rules:
+Finished snort3-netbios.rules:
+Loading snort3-os-linux.rules:
+Finished snort3-os-linux.rules:
+Loading snort3-os-mobile.rules:
+Finished snort3-os-mobile.rules:
+Loading snort3-os-other.rules:
+Finished snort3-os-other.rules:
+Loading snort3-os-solaris.rules:
+Finished snort3-os-solaris.rules:
+Loading snort3-os-windows.rules:
+Finished snort3-os-windows.rules:
+Loading snort3-policy-multimedia.rules:
+Finished snort3-policy-multimedia.rules:
+Loading snort3-policy-other.rules:
+Finished snort3-policy-other.rules:
+Loading snort3-policy-social.rules:
+Finished snort3-policy-social.rules:
+Loading snort3-policy-spam.rules:
+Finished snort3-policy-spam.rules:
+Loading snort3-protocol-dns.rules:
+Finished snort3-protocol-dns.rules:
+Loading snort3-protocol-finger.rules:
+Finished snort3-protocol-finger.rules:
+Loading snort3-protocol-ftp.rules:
+Finished snort3-protocol-ftp.rules:
+Loading snort3-protocol-icmp.rules:
+Finished snort3-protocol-icmp.rules:
+Loading snort3-protocol-imap.rules:
+Finished snort3-protocol-imap.rules:
+Loading snort3-protocol-nntp.rules:
+Finished snort3-protocol-nntp.rules:
+Loading snort3-protocol-other.rules:
+Finished snort3-protocol-other.rules:
+Loading snort3-protocol-pop.rules:
+Finished snort3-protocol-pop.rules:
+Loading snort3-protocol-rpc.rules:
+Finished snort3-protocol-rpc.rules:
+Loading snort3-protocol-scada.rules:
+Finished snort3-protocol-scada.rules:
+Loading snort3-protocol-services.rules:
+Finished snort3-protocol-services.rules:
+Loading snort3-protocol-snmp.rules:
+Finished snort3-protocol-snmp.rules:
+Loading snort3-protocol-telnet.rules:
+Finished snort3-protocol-telnet.rules:
+Loading snort3-protocol-tftp.rules:
+Finished snort3-protocol-tftp.rules:
+Loading snort3-protocol-voip.rules:
+Finished snort3-protocol-voip.rules:
+Loading snort3-pua-adware.rules:
+Finished snort3-pua-adware.rules:
+Loading snort3-pua-other.rules:
+Finished snort3-pua-other.rules:
+Loading snort3-pua-p2p.rules:
+Finished snort3-pua-p2p.rules:
+Loading snort3-pua-toolbars.rules:
+Finished snort3-pua-toolbars.rules:
+Loading snort3-server-apache.rules:
+Finished snort3-server-apache.rules:
+Loading snort3-server-iis.rules:
+Finished snort3-server-iis.rules:
+Loading snort3-server-mail.rules:
+Finished snort3-server-mail.rules:
+Loading snort3-server-mssql.rules:
+Finished snort3-server-mssql.rules:
+Loading snort3-server-mysql.rules:
+Finished snort3-server-mysql.rules:
+Loading snort3-server-oracle.rules:
+Finished snort3-server-oracle.rules:
+Loading snort3-server-other.rules:
+Finished snort3-server-other.rules:
+Loading snort3-server-samba.rules:
+Finished snort3-server-samba.rules:
+Loading snort3-server-webapp.rules:
+Finished snort3-server-webapp.rules:
+Loading snort3-sql.rules:
+Finished snort3-sql.rules:
+Loading snort3-x11.rules:
+Finished snort3-x11.rules:
+Finished ../rules/3.0.0.0/includes.rules:
+Finished ips.rules:
+--------------------------------------------------
+ips policies rule stats
+              id  loaded  shared enabled    file
+               0   45940    4020   45940    /usr/local/etc/snort/snort.lua
+--------------------------------------------------
+rule counts
+       total rules loaded: 45940
+          duplicate rules: 4020
+               text rules: 45940
+            option chains: 45940
+            chain headers: 6200
+                 flowbits: 712
+     flowbits not checked: 69
+--------------------------------------------------
+port rule counts
+             tcp     udp    icmp      ip
+     any    1820     391     471     298
+     src    1241     157       0       0
+     dst    5307    1005       0       0
+    both     109      54       0       0
+   total    8477    1607     471     298
+--------------------------------------------------
+service rule counts          to-srv  to-cli
+                      bgp:        5       1
+                   dcerpc:     1367     832
+                     dhcp:       37      10
+                     dnp3:        0       6
+                      dns:      276     117
+                     drda:        5       0
+                     file:      710     721
+                  file_id:      219     219
+                      ftp:      196      24
+                 ftp-data:      795   10720
+                   gopher:        0       1
+                     http:    14865   14127
+                    http2:    14865   14127
+                    http3:    14865   14127
+                    ident:        1       0
+                     igmp:        1       1
+                     imap:      841   10971
+                      irc:       40      14
+                     ircd:        9       3
+                 java_rmi:       55       3
+                 kerberos:       33       6
+                     ldap:       47       8
+                      ldp:        1       0
+                   modbus:       34      10
+                    mysql:       67       7
+              netbios-dgm:       11      11
+               netbios-ns:       15       5
+              netbios-ssn:     1259     813
+                  netware:        2       0
+                     nntp:        2       2
+                      ntp:       36       7
+                  openvpn:       16      16
+                     pop3:      800   10974
+               postgresql:        8       0
+                  printer:        6       0
+                   radius:        3       2
+                      rdp:       10      20
+                     rtmp:        1       4
+                      rtp:        1       1
+                     rtsp:       17       2
+                      sip:      338      44
+                     smtp:     9871     748
+                     snmp:       49      10
+                     ssdp:       13       0
+                      ssh:       10       4
+                      ssl:      206     221
+                   sunrpc:      130       9
+                   syslog:        4       0
+                 teamview:        1       2
+                   telnet:       61      15
+                     tftp:       11       6
+                      vnc:        1       1
+               vnc-server:       12      10
+                     wins:        3       0
+                    total:    62231   78982
+--------------------------------------------------
+fast pattern groups
+                      src: 510
+                      dst: 1629
+                      any: 8
+                to_server: 131
+                to_client: 98
+--------------------------------------------------
+search engine (ac_bnfa)
+                instances: 1303
+                 patterns: 157303
+            pattern chars: 3848078
+               num states: 2945922
+         num match states: 419153
+             memory scale: MB
+             total memory: 95.1651
+           pattern memory: 9.6692
+        match list memory: 50.3871
+        transition memory: 34.9497
+        fast pattern only: 105107
+appid: MaxRss diff: 512
+appid: patterns loaded: 300
+--------------------------------------------------
+pcap DAQ configured to read-file.
+Commencing packet processing
+++ [0] /home/dit/Descargas/pcaps/MicroLogix56.pcap
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/01-02:00:00.000000 
+[**] [1:41742:4] "POLICY-OTHER external admin access attempt" [**]
+01/01-02:00:00.000000 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/01-02:00:00.000000 
+[**] [1:45915:2] "INDICATOR-COMPROMISE PHP obfuscated eval command execution attempt" [**]
+01/01-02:00:00.000000 
+[**] [1:41742:4] "POLICY-OTHER external admin access attempt" [**]
+01/01-02:00:00.000000 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/01-02:00:00.000000 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/01-02:00:00.000000 
+[**] [1:31939:2] "SERVER-WEBAPP password sent via POST parameter" [**]
+01/01-02:00:00.000000 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/01-02:00:00.000000 
+[**] [1:5708:13] "POLICY-OTHER web server file upload attempt" [**]
+[Classification: Misc activity] [Priority: 3] 
+01/01-02:00:00.000000 10.200.1.166:8009 -> 10.50.1.54:80
+TCP TTL:128 TOS:0x0 ID:27753 IpLen:20 DgmLen:1500 DF
+***A**** Seq: 0xA069135C  Ack: 0x36CD2A19  Win: 0x4470  TcpLen: 20
+
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/01-02:00:00.000000 
+[**] [1:45915:2] "INDICATOR-COMPROMISE PHP obfuscated eval command execution attempt" [**]
+01/01-02:00:00.000000 
+[**] [1:5708:13] "POLICY-OTHER web server file upload attempt" [**]
+01/01-02:00:00.000000 
+[**] [1:3547:8] "SERVER-WEBAPP TrackerCam overly long php parameter overflow attempt" [**]
+01/01-02:00:00.000000 
+[**] [1:30379:2] "INDICATOR-SHELLCODE Metasploit payload cmd_unix_reverse_perl" [**]
+[Classification: Executable code was detected] [Priority: 1] 
+01/01-02:00:00.000000 10.200.1.166:8029 -> 10.50.1.54:80
+TCP TTL:128 TOS:0x0 ID:27915 IpLen:20 DgmLen:526 DF
+***AP*** Seq: 0xDB3888AD  Ack: 0x36D12AB5  Win: 0xFAF0  TcpLen: 20
+
+[**] [1:30379:2] "INDICATOR-SHELLCODE Metasploit payload cmd_unix_reverse_perl" [**]
+01/01-02:00:00.000000 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/01-02:00:00.000000 
+[**] [1:895:19] "SERVER-WEBAPP redirect access" [**]
+01/01-02:00:00.000000 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/01-02:00:00.000000 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/01-02:00:00.000000 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/01-02:00:00.000000 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/01-02:00:00.000000 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/01-02:00:00.000000 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/01-02:00:00.000000 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/01-02:00:00.000000 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/01-02:00:00.000000 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/01-02:00:00.000000 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/01-02:00:00.000000 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/01-02:00:00.000000 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/01-02:00:00.000000 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/01-02:00:00.000000 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/01-02:00:00.000000 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/01-02:00:00.000000 
+[**] [1:895:19] "SERVER-WEBAPP redirect access" [**]
+01/01-02:00:00.000000 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/01-02:00:00.000000 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/01-02:00:00.000000 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/01-02:00:00.000000 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/01-02:00:00.000000 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/01-02:00:00.000000 
+[**] [1:895:19] "SERVER-WEBAPP redirect access" [**]
+01/01-02:00:00.000000 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/01-02:00:00.000000 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/01-02:00:00.000000 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/01-02:00:00.000000 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/01-02:00:00.000000 
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35602
+TCP TTL:127 TOS:0x0 ID:22022 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35603
+TCP TTL:127 TOS:0x0 ID:22090 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35604
+TCP TTL:127 TOS:0x0 ID:22158 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/01-02:00:00.000000 
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35605
+TCP TTL:127 TOS:0x0 ID:22235 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/01-02:00:00.000000 
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:80 -> 10.200.1.153:53399
+TCP TTL:128 TOS:0x0 ID:22280 IpLen:20 DgmLen:40
+*****R** Seq: 0x37222404  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:80 -> 10.200.1.153:53399
+TCP TTL:127 TOS:0x0 ID:22280 IpLen:20 DgmLen:40
+*****R** Seq: 0x37222404  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:80 -> 10.200.1.153:53399
+TCP TTL:128 TOS:0x0 ID:22281 IpLen:20 DgmLen:40
+*****R** Seq: 0x37222405  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:80 -> 10.200.1.153:53399
+TCP TTL:127 TOS:0x0 ID:22281 IpLen:20 DgmLen:40
+*****R** Seq: 0x37222405  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/01-02:00:00.000000 
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:80 -> 10.200.1.153:53400
+TCP TTL:128 TOS:0x0 ID:22289 IpLen:20 DgmLen:40
+*****R** Seq: 0x37232A22  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:80 -> 10.200.1.153:53400
+TCP TTL:127 TOS:0x0 ID:22289 IpLen:20 DgmLen:40
+*****R** Seq: 0x37232A22  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35606
+TCP TTL:127 TOS:0x0 ID:22317 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35607
+TCP TTL:127 TOS:0x0 ID:22385 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35609
+TCP TTL:127 TOS:0x0 ID:22523 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:382:11] "PROTOCOL-ICMP PING Windows" [**]
+[Classification: Misc activity] [Priority: 3] 
+01/01-02:00:00.000000 10.200.1.229 -> 10.50.1.54
+ICMP TTL:128 TOS:0x0 ID:12951 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:1   Seq:36  ECHO
+
+[**] [1:29456:3] "PROTOCOL-ICMP Unusual PING detected" [**]
+[Classification: Information Leak] [Priority: 2] 
+01/01-02:00:00.000000 10.200.1.229 -> 10.50.1.54
+ICMP TTL:128 TOS:0x0 ID:12951 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:1   Seq:36  ECHO
+
+[**] [1:384:8] "PROTOCOL-ICMP PING" [**]
+[Classification: Misc activity] [Priority: 3] 
+01/01-02:00:00.000000 10.200.1.229 -> 10.50.1.54
+ICMP TTL:128 TOS:0x0 ID:12951 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:1   Seq:36  ECHO
+
+[**] [1:382:11] "PROTOCOL-ICMP PING Windows" [**]
+[Classification: Misc activity] [Priority: 3] 
+01/01-02:00:00.000000 10.200.1.229 -> 10.50.1.54
+ICMP TTL:127 TOS:0x0 ID:12951 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:1   Seq:36  ECHO
+
+[**] [1:29456:3] "PROTOCOL-ICMP Unusual PING detected" [**]
+[Classification: Information Leak] [Priority: 2] 
+01/01-02:00:00.000000 10.200.1.229 -> 10.50.1.54
+ICMP TTL:127 TOS:0x0 ID:12951 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:1   Seq:36  ECHO
+
+[**] [1:384:8] "PROTOCOL-ICMP PING" [**]
+[Classification: Misc activity] [Priority: 3] 
+01/01-02:00:00.000000 10.200.1.229 -> 10.50.1.54
+ICMP TTL:127 TOS:0x0 ID:12951 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:1   Seq:36  ECHO
+
+[**] [1:31767:2] "SERVER-OTHER MRLG fastping echo reply memory corruption attempt" [**]
+[Classification: Misc Attack] [Priority: 2] 
+01/01-02:00:00.000000 10.50.1.54 -> 10.200.1.229
+ICMP TTL:128 TOS:0x0 ID:22531 IpLen:20 DgmLen:60
+Type:0  Code:0  ID:1  Seq:36  ECHO REPLY
+
+[**] [1:408:8] "PROTOCOL-ICMP Echo Reply" [**]
+[Classification: Misc activity] [Priority: 3] 
+01/01-02:00:00.000000 10.50.1.54 -> 10.200.1.229
+ICMP TTL:128 TOS:0x0 ID:22531 IpLen:20 DgmLen:60
+Type:0  Code:0  ID:1  Seq:36  ECHO REPLY
+
+[**] [1:31767:2] "SERVER-OTHER MRLG fastping echo reply memory corruption attempt" [**]
+[Classification: Misc Attack] [Priority: 2] 
+01/01-02:00:00.000000 10.50.1.54 -> 10.200.1.229
+ICMP TTL:127 TOS:0x0 ID:22531 IpLen:20 DgmLen:60
+Type:0  Code:0  ID:1  Seq:36  ECHO REPLY
+
+[**] [1:408:8] "PROTOCOL-ICMP Echo Reply" [**]
+[Classification: Misc activity] [Priority: 3] 
+01/01-02:00:00.000000 10.50.1.54 -> 10.200.1.229
+ICMP TTL:127 TOS:0x0 ID:22531 IpLen:20 DgmLen:60
+Type:0  Code:0  ID:1  Seq:36  ECHO REPLY
+
+[**] [1:382:11] "PROTOCOL-ICMP PING Windows" [**]
+[Classification: Misc activity] [Priority: 3] 
+01/01-02:00:00.000000 10.200.1.229 -> 10.50.1.54
+ICMP TTL:128 TOS:0x0 ID:12952 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:1   Seq:37  ECHO
+
+[**] [1:29456:3] "PROTOCOL-ICMP Unusual PING detected" [**]
+[Classification: Information Leak] [Priority: 2] 
+01/01-02:00:00.000000 10.200.1.229 -> 10.50.1.54
+ICMP TTL:128 TOS:0x0 ID:12952 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:1   Seq:37  ECHO
+
+[**] [1:384:8] "PROTOCOL-ICMP PING" [**]
+[Classification: Misc activity] [Priority: 3] 
+01/01-02:00:00.000000 10.200.1.229 -> 10.50.1.54
+ICMP TTL:128 TOS:0x0 ID:12952 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:1   Seq:37  ECHO
+
+[**] [1:382:11] "PROTOCOL-ICMP PING Windows" [**]
+[Classification: Misc activity] [Priority: 3] 
+01/01-02:00:00.000000 10.200.1.229 -> 10.50.1.54
+ICMP TTL:127 TOS:0x0 ID:12952 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:1   Seq:37  ECHO
+
+[**] [1:29456:3] "PROTOCOL-ICMP Unusual PING detected" [**]
+[Classification: Information Leak] [Priority: 2] 
+01/01-02:00:00.000000 10.200.1.229 -> 10.50.1.54
+ICMP TTL:127 TOS:0x0 ID:12952 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:1   Seq:37  ECHO
+
+[**] [1:384:8] "PROTOCOL-ICMP PING" [**]
+[Classification: Misc activity] [Priority: 3] 
+01/01-02:00:00.000000 10.200.1.229 -> 10.50.1.54
+ICMP TTL:127 TOS:0x0 ID:12952 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:1   Seq:37  ECHO
+
+[**] [1:31767:2] "SERVER-OTHER MRLG fastping echo reply memory corruption attempt" [**]
+[Classification: Misc Attack] [Priority: 2] 
+01/01-02:00:00.000000 10.50.1.54 -> 10.200.1.229
+ICMP TTL:128 TOS:0x0 ID:22566 IpLen:20 DgmLen:60
+Type:0  Code:0  ID:1  Seq:37  ECHO REPLY
+
+[**] [1:408:8] "PROTOCOL-ICMP Echo Reply" [**]
+[Classification: Misc activity] [Priority: 3] 
+01/01-02:00:00.000000 10.50.1.54 -> 10.200.1.229
+ICMP TTL:128 TOS:0x0 ID:22566 IpLen:20 DgmLen:60
+Type:0  Code:0  ID:1  Seq:37  ECHO REPLY
+
+[**] [1:31767:2] "SERVER-OTHER MRLG fastping echo reply memory corruption attempt" [**]
+[Classification: Misc Attack] [Priority: 2] 
+01/01-02:00:00.000000 10.50.1.54 -> 10.200.1.229
+ICMP TTL:127 TOS:0x0 ID:22566 IpLen:20 DgmLen:60
+Type:0  Code:0  ID:1  Seq:37  ECHO REPLY
+
+[**] [1:408:8] "PROTOCOL-ICMP Echo Reply" [**]
+[Classification: Misc activity] [Priority: 3] 
+01/01-02:00:00.000000 10.50.1.54 -> 10.200.1.229
+ICMP TTL:127 TOS:0x0 ID:22566 IpLen:20 DgmLen:60
+Type:0  Code:0  ID:1  Seq:37  ECHO REPLY
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35610
+TCP TTL:127 TOS:0x0 ID:22596 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/01-02:00:00.000000 
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:80 -> 10.200.1.153:53407
+TCP TTL:127 TOS:0x0 ID:22604 IpLen:20 DgmLen:40
+*****R** Seq: 0x372832D0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:80 -> 10.200.1.153:53407
+TCP TTL:128 TOS:0x0 ID:22605 IpLen:20 DgmLen:40
+*****R** Seq: 0x372832D0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:80 -> 10.200.1.153:53407
+TCP TTL:127 TOS:0x0 ID:22605 IpLen:20 DgmLen:40
+*****R** Seq: 0x372832D0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:80 -> 10.200.1.153:53407
+TCP TTL:128 TOS:0x0 ID:22606 IpLen:20 DgmLen:40
+*****R** Seq: 0x372832D1  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:80 -> 10.200.1.153:53407
+TCP TTL:127 TOS:0x0 ID:22606 IpLen:20 DgmLen:40
+*****R** Seq: 0x372832D1  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:382:11] "PROTOCOL-ICMP PING Windows" [**]
+[Classification: Misc activity] [Priority: 3] 
+01/01-02:00:00.000000 10.200.1.229 -> 10.50.1.54
+ICMP TTL:128 TOS:0x0 ID:12953 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:1   Seq:38  ECHO
+
+[**] [1:29456:3] "PROTOCOL-ICMP Unusual PING detected" [**]
+[Classification: Information Leak] [Priority: 2] 
+01/01-02:00:00.000000 10.200.1.229 -> 10.50.1.54
+ICMP TTL:128 TOS:0x0 ID:12953 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:1   Seq:38  ECHO
+
+[**] [1:384:8] "PROTOCOL-ICMP PING" [**]
+[Classification: Misc activity] [Priority: 3] 
+01/01-02:00:00.000000 10.200.1.229 -> 10.50.1.54
+ICMP TTL:128 TOS:0x0 ID:12953 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:1   Seq:38  ECHO
+
+[**] [1:382:11] "PROTOCOL-ICMP PING Windows" [**]
+[Classification: Misc activity] [Priority: 3] 
+01/01-02:00:00.000000 10.200.1.229 -> 10.50.1.54
+ICMP TTL:127 TOS:0x0 ID:12953 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:1   Seq:38  ECHO
+
+[**] [1:29456:3] "PROTOCOL-ICMP Unusual PING detected" [**]
+[Classification: Information Leak] [Priority: 2] 
+01/01-02:00:00.000000 10.200.1.229 -> 10.50.1.54
+ICMP TTL:127 TOS:0x0 ID:12953 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:1   Seq:38  ECHO
+
+[**] [1:384:8] "PROTOCOL-ICMP PING" [**]
+[Classification: Misc activity] [Priority: 3] 
+01/01-02:00:00.000000 10.200.1.229 -> 10.50.1.54
+ICMP TTL:127 TOS:0x0 ID:12953 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:1   Seq:38  ECHO
+
+[**] [1:31767:2] "SERVER-OTHER MRLG fastping echo reply memory corruption attempt" [**]
+[Classification: Misc Attack] [Priority: 2] 
+01/01-02:00:00.000000 10.50.1.54 -> 10.200.1.229
+ICMP TTL:128 TOS:0x0 ID:22609 IpLen:20 DgmLen:60
+Type:0  Code:0  ID:1  Seq:38  ECHO REPLY
+
+[**] [1:408:8] "PROTOCOL-ICMP Echo Reply" [**]
+[Classification: Misc activity] [Priority: 3] 
+01/01-02:00:00.000000 10.50.1.54 -> 10.200.1.229
+ICMP TTL:128 TOS:0x0 ID:22609 IpLen:20 DgmLen:60
+Type:0  Code:0  ID:1  Seq:38  ECHO REPLY
+
+[**] [1:31767:2] "SERVER-OTHER MRLG fastping echo reply memory corruption attempt" [**]
+[Classification: Misc Attack] [Priority: 2] 
+01/01-02:00:00.000000 10.50.1.54 -> 10.200.1.229
+ICMP TTL:127 TOS:0x0 ID:22609 IpLen:20 DgmLen:60
+Type:0  Code:0  ID:1  Seq:38  ECHO REPLY
+
+[**] [1:408:8] "PROTOCOL-ICMP Echo Reply" [**]
+[Classification: Misc activity] [Priority: 3] 
+01/01-02:00:00.000000 10.50.1.54 -> 10.200.1.229
+ICMP TTL:127 TOS:0x0 ID:22609 IpLen:20 DgmLen:60
+Type:0  Code:0  ID:1  Seq:38  ECHO REPLY
+
+[**] [1:382:11] "PROTOCOL-ICMP PING Windows" [**]
+[Classification: Misc activity] [Priority: 3] 
+01/01-02:00:00.000000 10.200.1.229 -> 10.50.1.54
+ICMP TTL:128 TOS:0x0 ID:12954 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:1   Seq:39  ECHO
+
+[**] [1:29456:3] "PROTOCOL-ICMP Unusual PING detected" [**]
+[Classification: Information Leak] [Priority: 2] 
+01/01-02:00:00.000000 10.200.1.229 -> 10.50.1.54
+ICMP TTL:128 TOS:0x0 ID:12954 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:1   Seq:39  ECHO
+
+[**] [1:384:8] "PROTOCOL-ICMP PING" [**]
+[Classification: Misc activity] [Priority: 3] 
+01/01-02:00:00.000000 10.200.1.229 -> 10.50.1.54
+ICMP TTL:128 TOS:0x0 ID:12954 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:1   Seq:39  ECHO
+
+[**] [1:382:11] "PROTOCOL-ICMP PING Windows" [**]
+[Classification: Misc activity] [Priority: 3] 
+01/01-02:00:00.000000 10.200.1.229 -> 10.50.1.54
+ICMP TTL:127 TOS:0x0 ID:12954 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:1   Seq:39  ECHO
+
+[**] [1:29456:3] "PROTOCOL-ICMP Unusual PING detected" [**]
+[Classification: Information Leak] [Priority: 2] 
+01/01-02:00:00.000000 10.200.1.229 -> 10.50.1.54
+ICMP TTL:127 TOS:0x0 ID:12954 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:1   Seq:39  ECHO
+
+[**] [1:384:8] "PROTOCOL-ICMP PING" [**]
+[Classification: Misc activity] [Priority: 3] 
+01/01-02:00:00.000000 10.200.1.229 -> 10.50.1.54
+ICMP TTL:127 TOS:0x0 ID:12954 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:1   Seq:39  ECHO
+
+[**] [1:31767:2] "SERVER-OTHER MRLG fastping echo reply memory corruption attempt" [**]
+[Classification: Misc Attack] [Priority: 2] 
+01/01-02:00:00.000000 10.50.1.54 -> 10.200.1.229
+ICMP TTL:128 TOS:0x0 ID:22645 IpLen:20 DgmLen:60
+Type:0  Code:0  ID:1  Seq:39  ECHO REPLY
+
+[**] [1:408:8] "PROTOCOL-ICMP Echo Reply" [**]
+[Classification: Misc activity] [Priority: 3] 
+01/01-02:00:00.000000 10.50.1.54 -> 10.200.1.229
+ICMP TTL:128 TOS:0x0 ID:22645 IpLen:20 DgmLen:60
+Type:0  Code:0  ID:1  Seq:39  ECHO REPLY
+
+[**] [1:31767:2] "SERVER-OTHER MRLG fastping echo reply memory corruption attempt" [**]
+[Classification: Misc Attack] [Priority: 2] 
+01/01-02:00:00.000000 10.50.1.54 -> 10.200.1.229
+ICMP TTL:127 TOS:0x0 ID:22645 IpLen:20 DgmLen:60
+Type:0  Code:0  ID:1  Seq:39  ECHO REPLY
+
+[**] [1:408:8] "PROTOCOL-ICMP Echo Reply" [**]
+[Classification: Misc activity] [Priority: 3] 
+01/01-02:00:00.000000 10.50.1.54 -> 10.200.1.229
+ICMP TTL:127 TOS:0x0 ID:22645 IpLen:20 DgmLen:60
+Type:0  Code:0  ID:1  Seq:39  ECHO REPLY
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35611
+TCP TTL:127 TOS:0x0 ID:22671 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/01-02:00:00.000000 
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/01-02:00:00.000000 
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:80 -> 10.200.1.153:53409
+TCP TTL:127 TOS:0x0 ID:22727 IpLen:20 DgmLen:40
+*****R** Seq: 0x372B9FD6  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:80 -> 10.200.1.153:53409
+TCP TTL:128 TOS:0x0 ID:22728 IpLen:20 DgmLen:40
+*****R** Seq: 0x372B9FD7  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:80 -> 10.200.1.153:53409
+TCP TTL:127 TOS:0x0 ID:22728 IpLen:20 DgmLen:40
+*****R** Seq: 0x372B9FD7  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/01-02:00:00.000000 
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:80 -> 10.200.1.153:53410
+TCP TTL:127 TOS:0x0 ID:22736 IpLen:20 DgmLen:40
+*****R** Seq: 0x372D0FC9  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:80 -> 10.200.1.153:53410
+TCP TTL:128 TOS:0x0 ID:22737 IpLen:20 DgmLen:40
+*****R** Seq: 0x372D0FCA  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:80 -> 10.200.1.153:53410
+TCP TTL:127 TOS:0x0 ID:22737 IpLen:20 DgmLen:40
+*****R** Seq: 0x372D0FCA  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" [**]
+01/01-02:00:00.000000 
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:80 -> 10.200.1.153:53411
+TCP TTL:127 TOS:0x0 ID:22745 IpLen:20 DgmLen:40
+*****R** Seq: 0x372E63C8  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:80 -> 10.200.1.153:53411
+TCP TTL:128 TOS:0x0 ID:22746 IpLen:20 DgmLen:40
+*****R** Seq: 0x372E63C9  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:80 -> 10.200.1.153:53411
+TCP TTL:127 TOS:0x0 ID:22746 IpLen:20 DgmLen:40
+*****R** Seq: 0x372E63C9  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35612
+TCP TTL:127 TOS:0x0 ID:22765 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35613
+TCP TTL:127 TOS:0x0 ID:22831 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35614
+TCP TTL:127 TOS:0x0 ID:22901 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35615
+TCP TTL:127 TOS:0x0 ID:22968 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35616
+TCP TTL:127 TOS:0x0 ID:23034 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35617
+TCP TTL:127 TOS:0x0 ID:23103 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35618
+TCP TTL:127 TOS:0x0 ID:23173 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35619
+TCP TTL:127 TOS:0x0 ID:23240 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35620
+TCP TTL:127 TOS:0x0 ID:23309 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35621
+TCP TTL:127 TOS:0x0 ID:23377 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35622
+TCP TTL:127 TOS:0x0 ID:23445 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35623
+TCP TTL:127 TOS:0x0 ID:23513 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35624
+TCP TTL:127 TOS:0x0 ID:23582 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35625
+TCP TTL:127 TOS:0x0 ID:23650 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35626
+TCP TTL:127 TOS:0x0 ID:23717 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35627
+TCP TTL:127 TOS:0x0 ID:23787 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35628
+TCP TTL:127 TOS:0x0 ID:23853 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35629
+TCP TTL:127 TOS:0x0 ID:23923 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35630
+TCP TTL:127 TOS:0x0 ID:23992 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35631
+TCP TTL:127 TOS:0x0 ID:24059 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35632
+TCP TTL:127 TOS:0x0 ID:24128 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35633
+TCP TTL:127 TOS:0x0 ID:24196 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35634
+TCP TTL:127 TOS:0x0 ID:24262 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35635
+TCP TTL:127 TOS:0x0 ID:24331 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:80 -> 10.200.1.153:53421
+TCP TTL:127 TOS:0x0 ID:24376 IpLen:20 DgmLen:40
+*****R** Seq: 0x37422EDB  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:80 -> 10.200.1.153:53421
+TCP TTL:128 TOS:0x0 ID:24377 IpLen:20 DgmLen:40
+*****R** Seq: 0x37422EDB  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:80 -> 10.200.1.153:53421
+TCP TTL:127 TOS:0x0 ID:24377 IpLen:20 DgmLen:40
+*****R** Seq: 0x37422EDB  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35637
+TCP TTL:127 TOS:0x0 ID:24468 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35638
+TCP TTL:127 TOS:0x0 ID:24535 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:80 -> 10.200.1.153:53424
+TCP TTL:127 TOS:0x0 ID:24579 IpLen:20 DgmLen:40
+*****R** Seq: 0x37450FB0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:80 -> 10.200.1.153:53424
+TCP TTL:128 TOS:0x0 ID:24580 IpLen:20 DgmLen:40
+*****R** Seq: 0x37450FB0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:80 -> 10.200.1.153:53424
+TCP TTL:127 TOS:0x0 ID:24580 IpLen:20 DgmLen:40
+*****R** Seq: 0x37450FB0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35639
+TCP TTL:127 TOS:0x0 ID:24605 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35640
+TCP TTL:127 TOS:0x0 ID:24672 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35641
+TCP TTL:127 TOS:0x0 ID:24741 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35642
+TCP TTL:127 TOS:0x0 ID:24810 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35643
+TCP TTL:127 TOS:0x0 ID:24879 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35644
+TCP TTL:127 TOS:0x0 ID:24946 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35645
+TCP TTL:127 TOS:0x0 ID:25014 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35646
+TCP TTL:127 TOS:0x0 ID:25081 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35647
+TCP TTL:127 TOS:0x0 ID:25150 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35648
+TCP TTL:127 TOS:0x0 ID:25218 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35649
+TCP TTL:127 TOS:0x0 ID:25286 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35650
+TCP TTL:127 TOS:0x0 ID:25354 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35651
+TCP TTL:127 TOS:0x0 ID:25422 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35652
+TCP TTL:127 TOS:0x0 ID:25490 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35653
+TCP TTL:127 TOS:0x0 ID:25559 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35654
+TCP TTL:127 TOS:0x0 ID:25627 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35655
+TCP TTL:127 TOS:0x0 ID:25694 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35656
+TCP TTL:127 TOS:0x0 ID:25763 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35657
+TCP TTL:127 TOS:0x0 ID:25831 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35658
+TCP TTL:127 TOS:0x0 ID:25899 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35659
+TCP TTL:127 TOS:0x0 ID:25967 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35660
+TCP TTL:127 TOS:0x0 ID:26036 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35661
+TCP TTL:127 TOS:0x0 ID:26103 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35662
+TCP TTL:127 TOS:0x0 ID:26171 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35663
+TCP TTL:127 TOS:0x0 ID:26240 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35664
+TCP TTL:127 TOS:0x0 ID:26307 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35665
+TCP TTL:127 TOS:0x0 ID:26376 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35666
+TCP TTL:127 TOS:0x0 ID:26445 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35667
+TCP TTL:127 TOS:0x0 ID:26514 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35668
+TCP TTL:127 TOS:0x0 ID:26581 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35669
+TCP TTL:127 TOS:0x0 ID:26650 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35670
+TCP TTL:127 TOS:0x0 ID:26722 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35671
+TCP TTL:127 TOS:0x0 ID:26852 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35673
+TCP TTL:127 TOS:0x0 ID:26930 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35674
+TCP TTL:127 TOS:0x0 ID:27042 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35675
+TCP TTL:127 TOS:0x0 ID:27113 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35676
+TCP TTL:127 TOS:0x0 ID:27188 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35677
+TCP TTL:127 TOS:0x0 ID:27381 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35678
+TCP TTL:127 TOS:0x0 ID:27401 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35679
+TCP TTL:127 TOS:0x0 ID:27465 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35680
+TCP TTL:127 TOS:0x0 ID:27520 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35681
+TCP TTL:127 TOS:0x0 ID:27565 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35682
+TCP TTL:127 TOS:0x0 ID:27608 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35683
+TCP TTL:127 TOS:0x0 ID:27670 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35684
+TCP TTL:127 TOS:0x0 ID:27713 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35686
+TCP TTL:127 TOS:0x0 ID:27802 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35688
+TCP TTL:127 TOS:0x0 ID:27925 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35689
+TCP TTL:127 TOS:0x0 ID:28000 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35690
+TCP TTL:127 TOS:0x0 ID:28043 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35691
+TCP TTL:127 TOS:0x0 ID:28088 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35692
+TCP TTL:127 TOS:0x0 ID:28131 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35693
+TCP TTL:127 TOS:0x0 ID:28175 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35439
+TCP TTL:127 TOS:0x0 ID:28217 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35440
+TCP TTL:127 TOS:0x0 ID:28261 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35441
+TCP TTL:127 TOS:0x0 ID:28303 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35442
+TCP TTL:127 TOS:0x0 ID:28347 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35443
+TCP TTL:127 TOS:0x0 ID:28390 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35444
+TCP TTL:127 TOS:0x0 ID:28440 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35445
+TCP TTL:127 TOS:0x0 ID:28484 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35446
+TCP TTL:127 TOS:0x0 ID:28527 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+01/01-02:00:00.000000 10.50.1.54:2222 -> 10.200.1.174:35447
+TCP TTL:127 TOS:0x0 ID:28583 IpLen:20 DgmLen:40
+*****R** Seq: 0x0  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+-- [0] /home/dit/Descargas/pcaps/MicroLogix56.pcap
+--------------------------------------------------
+Packet Statistics
+--------------------------------------------------
+daq
+                    pcaps: 1
+                 received: 65668
+                 analyzed: 65668
+                    allow: 65668
+                 rx_bytes: 7959426
+--------------------------------------------------
+codec
+                    total: 65668       	(100.000%)
+                      eth: 65668       	(100.000%)
+                    icmp4: 16          	(  0.024%)
+                     ipv4: 65668       	(100.000%)
+                      tcp: 65637       	( 99.953%)
+                      udp: 15          	(  0.023%)
+--------------------------------------------------
+Module Statistics
+--------------------------------------------------
+ac_bnfa
+                 searches: 62730
+                  matches: 1585976
+                    bytes: 6286682
+--------------------------------------------------
+ac_full
+                 searches: 323
+                  matches: 904
+                    bytes: 23746
+--------------------------------------------------
+appid
+                  packets: 65668
+        processed_packets: 65304
+          ignored_packets: 364
+           total_sessions: 352
+       service_cache_adds: 2
+             bytes_in_use: 304
+             items_in_use: 2
+--------------------------------------------------
+back_orifice
+                  packets: 15
+--------------------------------------------------
+binder
+              raw_packets: 364
+                new_flows: 341
+          service_changes: 40
+                 inspects: 705
+--------------------------------------------------
+detection
+                 analyzed: 65668
+               hard_evals: 79602
+             raw_searches: 46746
+          cooked_searches: 15565
+             pkt_searches: 62311
+             pdu_searches: 357
+            file_searches: 62
+                   alerts: 214
+             total_alerts: 214
+                   logged: 214
+           cont_creations: 32
+               cont_flows: 13
+                buf_dumps: 126
+--------------------------------------------------
+file_id
+              total_files: 31
+          total_file_data: 22560
+     max_concurrent_files: 1
+--------------------------------------------------
+http_inspect
+                    flows: 40
+                    scans: 181
+              reassembles: 181
+              inspections: 169
+                 requests: 39
+                responses: 29
+             get_requests: 34
+            head_requests: 2
+            post_requests: 3
+           request_bodies: 3
+       uri_normalizations: 1
+  max_concurrent_sessions: 7
+              total_bytes: 45113
+--------------------------------------------------
+ips_actions
+                    alert: 214
+                  file_id: 11
+--------------------------------------------------
+normalizer
+        test_tcp_trim_win: 3
+           test_tcp_block: 8
+--------------------------------------------------
+pcre
+               pcre_rules: 12936
+              pcre_native: 12936
+         pcre_match_limit: 1
+--------------------------------------------------
+port_scan
+                  packets: 65668
+                 trackers: 14
+--------------------------------------------------
+search_engine
+               max_queued: 2584
+            total_flushed: 790604
+            total_inserts: 1585976
+             total_unique: 790604
+     non_qualified_events: 869931
+         qualified_events: 233
+--------------------------------------------------
+stream
+                    flows: 341
+--------------------------------------------------
+stream_icmp
+                 sessions: 1
+                      max: 1
+                  created: 1
+                 released: 1
+--------------------------------------------------
+stream_tcp
+                 sessions: 339
+                      max: 339
+                  created: 339
+                 released: 350
+             instantiated: 339
+                   setups: 339
+                 restarts: 40
+                   resyns: 11
+         discards_skipped: 8
+                   events: 8
+             syn_trackers: 327
+         syn_ack_trackers: 33
+            data_trackers: 1
+              segs_queued: 31102
+            segs_released: 31102
+                segs_used: 31100
+          rebuilt_packets: 11760
+          rebuilt_buffers: 25
+            rebuilt_bytes: 2177398
+                     gaps: 79
+          client_cleanups: 7
+             initializing: 11
+                     syns: 1465
+                 syn_acks: 636
+                   resets: 354
+                     fins: 188
+        partial_fallbacks: 3
+                 max_segs: 103
+                max_bytes: 8240
+         asymmetric_flows: 35
+--------------------------------------------------
+stream_udp
+                 sessions: 1
+                      max: 1
+                  created: 1
+                 released: 1
+              total_bytes: 4500
+--------------------------------------------------
+wizard
+                tcp_scans: 204
+                 tcp_hits: 40
+               tcp_misses: 1
+                udp_scans: 1
+               udp_misses: 1
+--------------------------------------------------
+Appid Statistics
+--------------------------------------------------
+detected apps and services
+              Application: Services   Clients    Users      Payloads   Misc       Referred  
+                  unknown: 81         39         0          39         0          0         
+--------------------------------------------------
+File Statistics
+--------------------------------------------------
+file stats
+                     Type TypeDn     TypeUp     BytesDn    BytesUp   
+                  GIF(63) 11         0          0          0         
+                    Total 11         0          0          0         
+--------------------------------------------------
+Summary Statistics
+--------------------------------------------------
+timing
+                  runtime: 00:00:01
+                  seconds: 1.006418
+                 pkts/sec: 65249
+                Mbits/sec: 63
+o")~   Snort exiting

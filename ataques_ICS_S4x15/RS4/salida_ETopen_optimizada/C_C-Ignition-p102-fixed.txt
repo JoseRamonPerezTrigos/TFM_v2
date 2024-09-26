@@ -1,0 +1,14 @@
+07/02-19:22:51.146651  [**] [1:2002752:4] ET POLICY Reserved Internal IP Traffic [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 192.168.2.87:42069 -> 192.168.2.91:8088
+07/02-19:22:51.146651  [**] [1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 192.168.2.87:42069 -> 192.168.2.91:8088
+07/02-19:22:51.148160  [**] [1:2002752:4] ET POLICY Reserved Internal IP Traffic [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 192.168.2.91:8088 -> 192.168.2.87:42069
+07/02-19:22:51.148160  [**] [1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 192.168.2.91:8088 -> 192.168.2.87:42069
+07/02-19:22:51.148526  [**] [1:2006408:8] ET POLICY HTTP Request on Unusual Port Possibly Hostile [**] [Classification: Potential Corporate Privacy Violation] [Priority: 1] {TCP} 192.168.2.87:42069 -> 192.168.2.91:8088
+07/02-19:22:51.148526  [**] [1:2010706:7] ET POLICY Internet Explorer 6 in use - Significant Security Risk [**] [Classification: Potential Corporate Privacy Violation] [Priority: 1] {TCP} 192.168.2.87:42069 -> 192.168.2.91:8088
+07/02-19:22:51.157873  [**] [1:2006408:8] ET POLICY HTTP Request on Unusual Port Possibly Hostile [**] [Classification: Potential Corporate Privacy Violation] [Priority: 1] {TCP} 192.168.2.87:36493 -> 192.168.2.91:8088
+07/02-19:22:51.184705  [**] [1:2006409:8] ET POLICY HTTP POST on unusual Port Possibly Hostile [**] [Classification: Potential Corporate Privacy Violation] [Priority: 1] {TCP} 192.168.2.87:35277 -> 192.168.2.91:8088
+07/02-19:22:51.184705  [**] [1:2018358:6] ET INFO GENERIC SUSPICIOUS POST to Dotted Quad with Fake Browser 1 [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 192.168.2.87:35277 -> 192.168.2.91:8088
+07/02-19:22:53.540913  [**] [1:2035480:3] ET INFO PE EXE Download over raw TCP [**] [Classification: Misc activity] [Priority: 3] {TCP} 192.168.2.87:102 -> 192.168.2.91:60964
+07/02-19:22:53.540913  [**] [1:2000419:20] ET POLICY PE EXE or DLL Windows file download Non-HTTP [**] [Classification: Potential Corporate Privacy Violation] [Priority: 1] {TCP} 192.168.2.87:102 -> 192.168.2.91:60964
+07/02-19:22:53.552599  [**] [1:2025644:1] ET TROJAN Possible Metasploit Payload Common Construct Bind_API (from server) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 192.168.2.87:102 -> 192.168.2.91:60964
+07/02-19:22:55.094905  [**] [1:2002752:4] ET POLICY Reserved Internal IP Traffic [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 192.168.2.86:137 -> 192.168.2.255:137
+07/02-19:22:55.094905  [**] [1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 192.168.2.86:137 -> 192.168.2.255:137
