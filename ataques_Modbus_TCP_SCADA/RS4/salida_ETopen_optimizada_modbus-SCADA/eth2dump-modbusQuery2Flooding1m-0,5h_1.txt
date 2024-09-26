@@ -1,0 +1,1 @@
+05/22-15:44:59.806233  [**] [1:2100527:9] GPL SCAN same SRC/DST [**] [Classification: Potentially Bad Traffic] [Priority: 2] {IPV6-ICMP} :: -> ff02::1:ff18:9404

@@ -1,0 +1,2 @@
+05/03-17:26:26.556099  [**] [1:1111213:2] SCADA_IDS: DNP3 - Points List Scan [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 192.168.66.34:20000 -> 192.168.66.33:1167
+05/03-17:27:26.086403  [**] [1:1111213:2] SCADA_IDS: DNP3 - Points List Scan [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 192.168.66.34:20000 -> 192.168.66.33:1167

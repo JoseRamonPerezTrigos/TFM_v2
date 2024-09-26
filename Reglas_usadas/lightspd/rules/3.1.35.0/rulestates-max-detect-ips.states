@@ -1,0 +1,5 @@
+block (gid:1; sid:300039; enable;)
+block (gid:1; sid:300046; enable;)
+
+
+# The following rules are for enabling flowbits that are checked in this policy

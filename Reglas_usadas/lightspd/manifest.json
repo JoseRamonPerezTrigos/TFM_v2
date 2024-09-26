@@ -1,0 +1,518 @@
+{
+   "lightspd build number" : "2024-07-17-001",
+   "snort versions" : {
+      "3.0.3-1" : {
+         "architectures" : {
+            "aarch64" : {
+               "modules_path" : "modules/3.0.1.0/aarch64/"
+            },
+            "centos-x64" : {
+               "modules_path" : "modules/3.0.1.0/centos-x64/"
+            },
+            "debian-x64" : {
+               "modules_path" : "modules/3.0.1.0/debian-x64/"
+            },
+            "fc-x64" : {
+               "modules_path" : "modules/3.0.1.0/fc-x64/"
+            },
+            "opensuse-x64" : {
+               "modules_path" : "modules/3.0.1.0/opensuse-x64/"
+            },
+            "ubuntu-x64" : {
+               "modules_path" : "modules/3.0.1.0/ubuntu-x64/"
+            }
+         },
+         "extended_rule_groups" : {
+            "rule_groups_files" : [
+               "rules/3.0.0.0/extended_rule_groups.json",
+               "builtins/3.0.0.0-0/extended_rule_groups.json",
+               "modules/stubs/extended_rule_groups.json"
+            ]
+         },
+         "policies_path" : "policies/3.0.3-1/"
+      },
+      "3.0.3-4" : {
+         "architectures" : {
+            "aarch64" : {
+               "modules_path" : "modules/3.0.1.0/aarch64/"
+            },
+            "centos-x64" : {
+               "modules_path" : "modules/3.0.1.0/centos-x64/"
+            },
+            "debian-x64" : {
+               "modules_path" : "modules/3.0.1.0/debian-x64/"
+            },
+            "fc-x64" : {
+               "modules_path" : "modules/3.0.1.0/fc-x64/"
+            },
+            "opensuse-x64" : {
+               "modules_path" : "modules/3.0.1.0/opensuse-x64/"
+            },
+            "ubuntu-x64" : {
+               "modules_path" : "modules/3.0.1.0/ubuntu-x64/"
+            }
+         },
+         "extended_rule_groups" : {
+            "rule_groups_files" : [
+               "rules/3.0.0.0/extended_rule_groups.json",
+               "builtins/3.0.0.0-0/extended_rule_groups.json",
+               "modules/stubs/extended_rule_groups.json"
+            ]
+         },
+         "policies_path" : "policies/3.0.3-4/"
+      },
+      "3.1.0.0-0" : {
+         "architectures" : {
+            "aarch64" : {
+               "modules_path" : "modules/3.0.1.0/aarch64/"
+            },
+            "centos-x64" : {
+               "modules_path" : "modules/3.0.1.0/centos-x64/"
+            },
+            "debian-x64" : {
+               "modules_path" : "modules/3.0.1.0/debian-x64/"
+            },
+            "fc-x64" : {
+               "modules_path" : "modules/3.0.1.0/fc-x64/"
+            },
+            "opensuse-x64" : {
+               "modules_path" : "modules/3.0.1.0/opensuse-x64/"
+            },
+            "ubuntu-x64" : {
+               "modules_path" : "modules/3.0.1.0/ubuntu-x64/"
+            }
+         },
+         "extended_rule_groups" : {
+            "rule_groups_files" : [
+               "rules/3.0.0.0/extended_rule_groups.json",
+               "builtins/3.0.0.0-0/extended_rule_groups.json",
+               "modules/stubs/extended_rule_groups.json"
+            ]
+         },
+         "policies_path" : "policies/3.1.0.0-0/"
+      },
+      "3.1.0.1-174" : {
+         "architectures" : {
+            "aarch64" : {
+               "modules_path" : "modules/3.0.1.0/aarch64/"
+            },
+            "centos-x64" : {
+               "modules_path" : "modules/3.0.1.0/centos-x64/"
+            },
+            "debian-x64" : {
+               "modules_path" : "modules/3.0.1.0/debian-x64/"
+            },
+            "fc-x64" : {
+               "modules_path" : "modules/3.0.1.0/fc-x64/"
+            },
+            "opensuse-x64" : {
+               "modules_path" : "modules/3.0.1.0/opensuse-x64/"
+            },
+            "ubuntu-x64" : {
+               "modules_path" : "modules/3.0.1.0/ubuntu-x64/"
+            }
+         },
+         "extended_rule_groups" : {
+            "rule_groups_files" : [
+               "rules/3.0.0.0/extended_rule_groups.json",
+               "builtins/3.0.0.0-0/extended_rule_groups.json",
+               "modules/stubs/extended_rule_groups.json"
+            ]
+         },
+         "policies_path" : "policies/3.1.0.0-0/"
+      },
+      "3.1.1.0-0" : {
+         "architectures" : {
+            "aarch64" : {
+               "modules_path" : "modules/3.0.1.0/aarch64/"
+            },
+            "centos-x64" : {
+               "modules_path" : "modules/3.0.1.0/centos-x64/"
+            },
+            "debian-x64" : {
+               "modules_path" : "modules/3.0.1.0/debian-x64/"
+            },
+            "fc-x64" : {
+               "modules_path" : "modules/3.0.1.0/fc-x64/"
+            },
+            "opensuse-x64" : {
+               "modules_path" : "modules/3.0.1.0/opensuse-x64/"
+            },
+            "ubuntu-x64" : {
+               "modules_path" : "modules/3.0.1.0/ubuntu-x64/"
+            }
+         },
+         "extended_rule_groups" : {
+            "rule_groups_files" : [
+               "rules/3.0.0.0/extended_rule_groups.json",
+               "builtins/3.0.0.0-0/extended_rule_groups.json",
+               "modules/stubs/extended_rule_groups.json"
+            ]
+         },
+         "policies_path" : "policies/3.1.0.0-0/"
+      },
+      "3.1.7.0-0" : {
+         "architectures" : {
+            "aarch64" : {
+               "modules_path" : "modules/3.1.7.0/aarch64/"
+            },
+            "centos-x64" : {
+               "modules_path" : "modules/3.1.7.0/centos-x64/"
+            },
+            "debian-x64" : {
+               "modules_path" : "modules/3.1.7.0/debian-x64/"
+            },
+            "fc-x64" : {
+               "modules_path" : "modules/3.1.7.0/fc-x64/"
+            },
+            "opensuse-x64" : {
+               "modules_path" : "modules/3.1.7.0/opensuse-x64/"
+            },
+            "ubuntu-x64" : {
+               "modules_path" : "modules/3.1.7.0/ubuntu-x64/"
+            }
+         },
+         "extended_rule_groups" : {
+            "rule_groups_files" : [
+               "rules/3.0.0.0/extended_rule_groups.json",
+               "builtins/3.0.0.0-0/extended_rule_groups.json",
+               "modules/stubs/extended_rule_groups.json"
+            ]
+         },
+         "policies_path" : "policies/3.1.0.0-0/"
+      },
+      "3.1.8.0-0" : {
+         "architectures" : {
+            "aarch64" : {
+               "modules_path" : "modules/3.1.7.0/aarch64/"
+            },
+            "centos-x64" : {
+               "modules_path" : "modules/3.1.7.0/centos-x64/"
+            },
+            "debian-x64" : {
+               "modules_path" : "modules/3.1.7.0/debian-x64/"
+            },
+            "fc-x64" : {
+               "modules_path" : "modules/3.1.7.0/fc-x64/"
+            },
+            "opensuse-x64" : {
+               "modules_path" : "modules/3.1.7.0/opensuse-x64/"
+            },
+            "ubuntu-x64" : {
+               "modules_path" : "modules/3.1.7.0/ubuntu-x64/"
+            }
+         },
+         "extended_rule_groups" : {
+            "rule_groups_files" : [
+               "rules/3.0.0.0/extended_rule_groups.json",
+               "builtins/3.0.0.0-0/extended_rule_groups.json",
+               "modules/stubs/extended_rule_groups.json"
+            ]
+         },
+         "policies_path" : "policies/3.1.0.0-0/"
+      },
+      "3.1.9.0-0" : {
+         "architectures" : {
+            "aarch64" : {
+               "modules_path" : "modules/3.1.9.0/aarch64/"
+            },
+            "centos-x64" : {
+               "modules_path" : "modules/3.1.9.0/centos-x64/"
+            },
+            "debian-x64" : {
+               "modules_path" : "modules/3.1.9.0/debian-x64/"
+            },
+            "fc-x64" : {
+               "modules_path" : "modules/3.1.9.0/fc-x64/"
+            },
+            "opensuse-x64" : {
+               "modules_path" : "modules/3.1.9.0/opensuse-x64/"
+            },
+            "ubuntu-x64" : {
+               "modules_path" : "modules/3.1.9.0/ubuntu-x64/"
+            }
+         },
+         "extended_rule_groups" : {
+            "rule_groups_files" : [
+               "rules/3.0.0.0/extended_rule_groups.json",
+               "builtins/3.0.0.0-0/extended_rule_groups.json",
+               "modules/stubs/extended_rule_groups.json"
+            ]
+         },
+         "policies_path" : "policies/3.1.0.0-0/"
+      },
+      "3.1.11.0-0" : {
+         "architectures" : {
+            "aarch64" : {
+               "modules_path" : "modules/3.1.11.0/aarch64/"
+            },
+            "centos-x64" : {
+               "modules_path" : "modules/3.1.11.0/centos-x64/"
+            },
+            "debian-x64" : {
+               "modules_path" : "modules/3.1.11.0/debian-x64/"
+            },
+            "fc-x64" : {
+               "modules_path" : "modules/3.1.11.0/fc-x64/"
+            },
+            "opensuse-x64" : {
+               "modules_path" : "modules/3.1.11.0/opensuse-x64/"
+            },
+            "ubuntu-x64" : {
+               "modules_path" : "modules/3.1.11.0/ubuntu-x64/"
+            }
+         },
+         "extended_rule_groups" : {
+            "rule_groups_files" : [
+               "rules/3.0.0.0/extended_rule_groups.json",
+               "builtins/3.0.0.0-0/extended_rule_groups.json",
+               "modules/stubs/extended_rule_groups.json"
+            ]
+         },
+         "policies_path" : "policies/3.1.0.0-0/"
+      },
+      "3.1.15.0-0" : {
+         "architectures" : {
+            "aarch64" : {
+               "modules_path" : "modules/3.1.15.0/aarch64/"
+            },
+            "centos-x64" : {
+               "modules_path" : "modules/3.1.15.0/centos-x64/"
+            },
+            "debian-x64" : {
+               "modules_path" : "modules/3.1.15.0/debian-x64/"
+            },
+            "fc-x64" : {
+               "modules_path" : "modules/3.1.15.0/fc-x64/"
+            },
+            "opensuse-x64" : {
+               "modules_path" : "modules/3.1.15.0/opensuse-x64/"
+            },
+            "ubuntu-x64" : {
+               "modules_path" : "modules/3.1.15.0/ubuntu-x64/"
+            }
+         },
+         "extended_rule_groups" : {
+            "rule_groups_files" : [
+               "rules/3.0.0.0/extended_rule_groups.json",
+               "builtins/3.0.0.0-0/extended_rule_groups.json",
+               "modules/stubs/extended_rule_groups.json"
+            ]
+         },
+         "policies_path" : "policies/3.1.0.0-0/"
+      },
+      "3.1.18.0-0" : {
+         "architectures" : {
+            "aarch64" : {
+               "modules_path" : "modules/3.1.18.0/aarch64/"
+            },
+            "centos-x64" : {
+               "modules_path" : "modules/3.1.18.0/centos-x64/"
+            },
+            "debian-x64" : {
+               "modules_path" : "modules/3.1.18.0/debian-x64/"
+            },
+            "fc-x64" : {
+               "modules_path" : "modules/3.1.18.0/fc-x64/"
+            },
+            "opensuse-x64" : {
+               "modules_path" : "modules/3.1.18.0/opensuse-x64/"
+            },
+            "ubuntu-x64" : {
+               "modules_path" : "modules/3.1.18.0/ubuntu-x64/"
+            }
+         },
+         "extended_rule_groups" : {
+            "rule_groups_files" : [
+               "rules/3.0.0.0/extended_rule_groups.json",
+               "builtins/3.0.0.0-0/extended_rule_groups.json",
+               "modules/stubs/extended_rule_groups.json"
+            ]
+         },
+         "policies_path" : "policies/3.1.0.0-0/"
+      },
+      "3.1.21.1-114" : {
+         "architectures" : {
+            "aarch64" : {
+               "modules_path" : "modules/3.1.21.1-114/aarch64/"
+            },
+            "centos-x64" : {
+               "modules_path" : "modules/3.1.21.1-114/centos-x64/"
+            },
+            "debian-x64" : {
+               "modules_path" : "modules/3.1.21.1-114/debian-x64/"
+            },
+            "fc-x64" : {
+               "modules_path" : "modules/3.1.21.1-114/fc-x64/"
+            },
+            "opensuse-x64" : {
+               "modules_path" : "modules/3.1.21.1-114/opensuse-x64/"
+            },
+            "ubuntu-x64" : {
+               "modules_path" : "modules/3.1.21.1-114/ubuntu-x64/"
+            }
+         },
+         "extended_rule_groups" : {
+            "rule_groups_files" : [
+               "rules/3.0.0.0/extended_rule_groups.json",
+               "builtins/3.0.0.0-0/extended_rule_groups.json",
+               "modules/stubs/extended_rule_groups.json"
+            ]
+         },
+         "policies_path" : "policies/3.1.0.0-0/"
+      },
+      "3.1.26.0-0" : {
+         "architectures" : {
+            "aarch64" : {
+               "modules_path" : "modules/3.1.26.0/aarch64/"
+            },
+            "centos-x64" : {
+               "modules_path" : "modules/3.1.26.0/centos-x64/"
+            },
+            "debian-x64" : {
+               "modules_path" : "modules/3.1.26.0/debian-x64/"
+            },
+            "fc-x64" : {
+               "modules_path" : "modules/3.1.26.0/fc-x64/"
+            },
+            "opensuse-x64" : {
+               "modules_path" : "modules/3.1.26.0/opensuse-x64/"
+            },
+            "ubuntu-x64" : {
+               "modules_path" : "modules/3.1.26.0/ubuntu-x64/"
+            }
+         },
+         "extended_rule_groups" : {
+            "rule_groups_files" : [
+               "rules/3.0.0.0/extended_rule_groups.json",
+               "builtins/3.0.0.0-0/extended_rule_groups.json",
+               "modules/stubs/extended_rule_groups.json"
+            ]
+         },
+         "policies_path" : "policies/3.1.0.0-0/"
+      },
+      "3.1.35.0-0" : {
+         "architectures" : {
+            "aarch64" : {
+               "modules_path" : "modules/3.1.35.0/aarch64/"
+            },
+            "centos-x64" : {
+               "modules_path" : "modules/3.1.35.0/centos-x64/"
+            },
+            "debian-x64" : {
+               "modules_path" : "modules/3.1.35.0/debian-x64/"
+            },
+            "fc-x64" : {
+               "modules_path" : "modules/3.1.35.0/fc-x64/"
+            },
+            "opensuse-x64" : {
+               "modules_path" : "modules/3.1.35.0/opensuse-x64/"
+            },
+            "ubuntu-x64" : {
+               "modules_path" : "modules/3.1.35.0/ubuntu-x64/"
+            }
+         },
+         "extended_rule_groups" : {
+            "rule_groups_files" : [
+               "rules/3.0.0.0/extended_rule_groups.json",
+               "rules/3.1.35.0/extended_rule_groups.json",
+               "builtins/3.0.0.0-0/extended_rule_groups.json",
+               "modules/stubs/extended_rule_groups.json"
+            ]
+         },
+         "policies_path" : "policies/3.1.0.0-0/"
+      },
+      "3.1.44.0-0" : {
+         "architectures" : {
+            "aarch64" : {
+               "modules_path" : "modules/3.1.44.0/aarch64/"
+            },
+            "centos-x64" : {
+               "modules_path" : "modules/3.1.44.0/centos-x64/"
+            },
+            "debian-x64" : {
+               "modules_path" : "modules/3.1.44.0/debian-x64/"
+            },
+            "fc-x64" : {
+               "modules_path" : "modules/3.1.44.0/fc-x64/"
+            },
+            "opensuse-x64" : {
+               "modules_path" : "modules/3.1.44.0/opensuse-x64/"
+            },
+            "ubuntu-x64" : {
+               "modules_path" : "modules/3.1.44.0/ubuntu-x64/"
+            }
+         },
+         "extended_rule_groups" : {
+            "rule_groups_files" : [
+               "rules/3.0.0.0/extended_rule_groups.json",
+               "rules/3.1.35.0/extended_rule_groups.json",
+               "builtins/3.0.0.0-0/extended_rule_groups.json",
+               "modules/stubs/extended_rule_groups.json"
+            ]
+         },
+         "policies_path" : "policies/3.1.0.0-0/"
+      },
+      "3.1.47.0-0" : {
+         "architectures" : {
+            "aarch64" : {
+               "modules_path" : "modules/3.1.44.0/aarch64/"
+            },
+            "centos-x64" : {
+               "modules_path" : "modules/3.1.44.0/centos-x64/"
+            },
+            "debian-x64" : {
+               "modules_path" : "modules/3.1.44.0/debian-x64/"
+            },
+            "fc-x64" : {
+               "modules_path" : "modules/3.1.44.0/fc-x64/"
+            },
+            "opensuse-x64" : {
+               "modules_path" : "modules/3.1.44.0/opensuse-x64/"
+            },
+            "ubuntu-x64" : {
+               "modules_path" : "modules/3.1.44.0/ubuntu-x64/"
+            }
+         },
+         "extended_rule_groups" : {
+            "rule_groups_files" : [
+               "rules/3.0.0.0/extended_rule_groups.json",
+               "rules/3.1.35.0/extended_rule_groups.json",
+               "extras/sensitive-data/extended_rule_groups.json",
+               "builtins/3.0.0.0-0/extended_rule_groups.json",
+               "modules/stubs/extended_rule_groups.json"
+            ]
+         },
+         "policies_path" : "policies/3.1.0.0-0/"
+      },
+      "3.2.0.0-0" : {
+         "architectures" : {
+            "aarch64" : {
+               "modules_path" : "modules/3.2.0.0/aarch64/"
+            },
+            "debian-x64" : {
+               "modules_path" : "modules/3.2.0.0/debian-x64/"
+            },
+            "fc-x64" : {
+               "modules_path" : "modules/3.2.0.0/fc-x64/"
+            },
+            "opensuse-x64" : {
+               "modules_path" : "modules/3.2.0.0/opensuse-x64/"
+            },
+            "ubuntu-x64" : {
+               "modules_path" : "modules/3.2.0.0/ubuntu-x64/"
+            }
+         },
+         "extended_rule_groups" : {
+            "rule_groups_files" : [
+               "rules/3.0.0.0/extended_rule_groups.json",
+               "rules/3.1.35.0/extended_rule_groups.json",
+               "extras/sensitive-data/extended_rule_groups.json",
+               "builtins/3.0.0.0-0/extended_rule_groups.json",
+               "modules/stubs/extended_rule_groups.json"
+            ]
+         },
+         "policies_path" : "policies/3.1.0.0-0/"
+      }
+   }
+}

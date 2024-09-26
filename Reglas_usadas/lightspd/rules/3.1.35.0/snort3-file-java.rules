@@ -1,0 +1,23 @@
+# Copyright 2001-2013 Sourcefire Inc. All Rights Reserved.
+#
+# This file may contain proprietary rules that were created, tested and
+# certified by Sourcefire, Inc. (the "VRT Certified Rules") as well as
+# rules that were created by Sourcefire and other third parties and
+# distributed under the GNU General Public License (the "GPL Rules").  The
+# VRT Certified Rules contained in this file are the property of
+# Sourcefire, Inc. Copyright  Sourcefire, Inc. All Rights Reserved.
+# The GPL Rules created by Sourcefire, Inc. are the property of
+# Sourcefire, Inc. Copyright 2002- Sourcefire, Inc. All Rights
+# Reserved.  All other GPL Rules are owned and copyrighted by their
+# respective owners (please see www.snort.org/contributors for a list of
+# owners and their respective copyrights).  In order to determine what
+# rules are VRT Certified Rules or GPL Rules, please refer to the VRT
+# Certified Rules License Agreement.
+#
+#------------
+# FILE-JAVA
+#------------
+# fast_pattern's 'only' option has been deleted
+
+alert file ( msg:"FILE-JAVA Oracle Java ImagingLib buffer overflow attempt"; file_type:JAR; file_data; content:"|01 00 07 44 6F 5F 77 6F 72 6B 01 00 0F 4C 69 6E 65 4E 75 6D 62 65 72 54 61 62 6C 65 01 00 0A 53 6F 75 72 63 65 46 69 6C 65 01 00 01 61 01 00 06|",fast_pattern,nocase; metadata:policy max-detect-ips drop; reference:cve,2013-2463; classtype:attempted-user; sid:300039; rev:1; )
+alert file ( msg:"FILE-JAVA Oracle Java font rendering remote code execution attempt"; file_type:JAR; file_data; content:"|01 00 13|getResourceAsStream"; content:"|01 00 0A|createFont",distance 0; content:"|01 00 0A|deriveFont",distance 0; content:"|01 00 07|setFont",distance 0; content:"|01 00 29|(Ljava/lang/String|3B|)Ljava/io/InputStream|3B|",fast_pattern; content:"Arial.otf",nocase; metadata:policy max-detect-ips drop; reference:cve,2013-1491; reference:url,www.oracle.com/technetwork/topics/security/javacpuapr2013-1928497.html; classtype:attempted-user; sid:300046; rev:1; )
