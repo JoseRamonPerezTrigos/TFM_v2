@@ -1,8 +1,0 @@
-04/06-18:14:19.782925  [**] [1:2002752:4] ET POLICY Reserved Internal IP Traffic [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 192.168.0.142:57308 -> 192.168.0.64:102
-04/06-18:14:19.782925  [**] [1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 192.168.0.142:57308 -> 192.168.0.64:102
-04/06-18:14:19.785274  [**] [1:2002752:4] ET POLICY Reserved Internal IP Traffic [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 192.168.0.64:102 -> 192.168.0.142:57308
-04/06-18:14:19.785274  [**] [1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 192.168.0.64:102 -> 192.168.0.142:57308
-04/06-18:14:25.194259  [**] [1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 93.184.220.29:80 -> 192.168.0.142:36838
-04/06-18:14:43.326003  [**] [1:2027397:2] ET POLICY Spotify P2P Client [**] [Classification: Not Suspicious Traffic] [Priority: 3] {UDP} 192.168.0.154:57621 -> 192.168.0.255:57621
-04/06-18:14:43.326003  [**] [1:2002752:4] ET POLICY Reserved Internal IP Traffic [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 192.168.0.154:57621 -> 192.168.0.255:57621
-04/06-18:14:43.326003  [**] [1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 192.168.0.154:57621 -> 192.168.0.255:57621

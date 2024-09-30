@@ -1,2 +1,0 @@
-05/07-18:09:19.531025  [**] [1:2002752:4] ET POLICY Reserved Internal IP Traffic [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 192.168.2.86:137 -> 192.168.2.255:137
-05/07-18:09:19.531025  [**] [1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 192.168.2.86:137 -> 192.168.2.255:137

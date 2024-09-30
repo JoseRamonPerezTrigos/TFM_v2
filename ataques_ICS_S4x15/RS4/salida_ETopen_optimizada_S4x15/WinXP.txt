@@ -1,0 +1,6 @@
+01/13-15:01:46.893847  [**] [1:2023997:3] ET INFO Potentially unsafe SMBv1 protocol in use [**] [Classification: Not Suspicious Traffic] [Priority: 3] {TCP} 10.200.1.184:64316 -> 10.200.1.18:445
+01/13-15:01:49.413470  [**] [1:2023997:3] ET INFO Potentially unsafe SMBv1 protocol in use [**] [Classification: Not Suspicious Traffic] [Priority: 3] {TCP} 10.200.1.51:50671 -> 10.200.1.18:445
+01/13-15:01:56.118942  [**] [1:2023997:3] ET INFO Potentially unsafe SMBv1 protocol in use [**] [Classification: Not Suspicious Traffic] [Priority: 3] {TCP} 10.200.1.191:62728 -> 10.200.1.18:445
+01/13-15:02:14.610175  [**] [1:2023997:3] ET INFO Potentially unsafe SMBv1 protocol in use [**] [Classification: Not Suspicious Traffic] [Priority: 3] {TCP} 10.200.1.252:57825 -> 10.200.1.18:445
+01/13-15:02:16.308620  [**] [1:2023997:3] ET INFO Potentially unsafe SMBv1 protocol in use [**] [Classification: Not Suspicious Traffic] [Priority: 3] {TCP} 10.200.1.86:56711 -> 10.200.1.18:445
+01/13-15:03:32.397139  [**] [1:2023997:3] ET INFO Potentially unsafe SMBv1 protocol in use [**] [Classification: Not Suspicious Traffic] [Priority: 3] {TCP} 10.200.1.178:58418 -> 10.200.1.18:139
