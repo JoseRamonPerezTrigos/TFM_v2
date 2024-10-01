@@ -1,3 +1,0 @@
-06/05-20:37:05.720841  [**] [1:2011976:1] ET SCADA RealWin SCADA System Buffer Overflow [**] [Classification: Attempted Denial of Service] [Priority: 2] {TCP} 192.168.2.87:45727 -> 192.168.2.92:912
-06/05-20:37:05.796108  [**] [1:2035480:3] ET INFO PE EXE Download over raw TCP [**] [Classification: Misc activity] [Priority: 3] {TCP} 192.168.2.87:20000 -> 192.168.2.92:1104
-06/05-20:37:05.807906  [**] [1:2025644:1] ET TROJAN Possible Metasploit Payload Common Construct Bind_API (from server) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 192.168.2.87:20000 -> 192.168.2.92:1104

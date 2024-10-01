@@ -1,4 +1,0 @@
-04/03-23:14:15.432629  [**] [1:1111403:1] OMRON FINS TCP Read Controller Attempt [**] [Priority: 1] {TCP} 10.1.1.173:17134 -> 10.1.1.164:9600
-04/03-23:14:15.432629  [**] [1:1111401:1] OMRON FINS TCP Read Controller Attempt [**] [Priority: 3] {TCP} 10.1.1.173:17134 -> 10.1.1.164:9600
-04/03-23:14:35.892372  [**] [1:1111404:1] OMRON FINS UDP Read Controller Attempt [**] [Priority: 1] {UDP} 10.1.1.173:54855 -> 10.1.1.164:9600
-04/03-23:14:35.892372  [**] [1:1111402:1] OMRON FINS UDP Read Controller Attempt [**] [Priority: 3] {UDP} 10.1.1.173:54855 -> 10.1.1.164:9600

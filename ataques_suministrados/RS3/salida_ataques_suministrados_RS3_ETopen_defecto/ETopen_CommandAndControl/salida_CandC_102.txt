@@ -1,3 +1,0 @@
-07/02-19:22:51.184705  [**] [1:2018358:6] ET INFO GENERIC SUSPICIOUS POST to Dotted Quad with Fake Browser 1 [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 192.168.2.87:35277 -> 192.168.2.91:8088
-07/02-19:22:53.540913  [**] [1:2035480:3] ET INFO PE EXE Download over raw TCP [**] [Classification: Misc activity] [Priority: 3] {TCP} 192.168.2.87:102 -> 192.168.2.91:60964
-07/02-19:22:53.552599  [**] [1:2025644:1] ET TROJAN Possible Metasploit Payload Common Construct Bind_API (from server) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 192.168.2.87:102 -> 192.168.2.91:60964

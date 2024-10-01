@@ -1,1 +1,0 @@
-04/02-22:10:15.006110  [**] [1:1111101:1] Discovery Attempt Via Redpoint Nmap NSE Script (Niagara Fox TCP/1911) [**] [Priority: 3] {TCP} 10.1.3.4:42167 -> 106.68.88.119:1911

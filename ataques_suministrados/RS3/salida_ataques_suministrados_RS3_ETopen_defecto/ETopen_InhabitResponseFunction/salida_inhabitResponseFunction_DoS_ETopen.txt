@@ -1,1 +1,0 @@
-05/02-20:21:14.972387  [**] [1:2026917:1] ET EXPLOIT Possible MicroLogix 1100 PCCC DoS Condition (CVE-2017-7924) [**] [Classification: Attempted Denial of Service] [Priority: 2] {TCP} 192.168.0.142:36809 -> 192.168.0.64:44818
